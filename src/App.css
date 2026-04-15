@@ -43,6 +43,9 @@
   }
 }
 
+.bnm{
+  width: 20%;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --text: #9ca3af;
@@ -651,7 +654,7 @@ text-align: left;
 .hfbottom{
   width: 100%;
   height: 290px;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   display: flex;
   margin-bottom: 20px;
   gap: 10px;
@@ -861,7 +864,7 @@ font-family: 'Oswald', sans-serif;
 .hfb{
   width: 400px;
   height: 300px;
-  background:url('./assets/HOUSE\ WITH\ STONE\ 3\ WITH\ LOGO.jpg');
+  background:url('./assets/Modern house design 6.jpg');
   background-size: cover;        /* 🔥 key */
   background-position: center;   /* center image */
   background-repeat: no-repeat;
@@ -951,7 +954,7 @@ font-family: 'Oswald', sans-serif;
 .hfb2{
   width: 400px;
   height: 300px;
-  background:url('./assets/Living\ _\ Terrace\ \(1\)-1\ ME\ LOGO.jpg');
+  background:url('./assets/image of a modern apartment 6.jpg');
   background-size: cover;        /* 🔥 key */
   background-position: center;   /* center image */
   background-repeat: no-repeat;
@@ -1013,7 +1016,7 @@ font-family: 'Oswald', sans-serif;
   overflow: hidden;
 }
 .hero{
-  height: 300px;
+  height: 270px;
 }
 .no2{
   margin-top: -80px;
@@ -1048,7 +1051,7 @@ font-family: 'Oswald', sans-serif;
   height: 70px;
 }
 .ld_1{
-  width: 70%;
+  width: 10%;
 }
 .center img{
   width: 120px;
@@ -1086,11 +1089,12 @@ font-family: 'Oswald', sans-serif;
         margin-left: -114px;
 }
 .overshow{
+  margin-top: 10px;
   width: 297px;
 }
 .theg {
     position: absolute;
-    width: 100%;
+    width: 90%;
     margin-left: -130px;
     margin-top: -19px;
    
@@ -1102,13 +1106,14 @@ font-family: 'Oswald', sans-serif;
 }
 
 .logodescription{
-        height: 129px;
-        padding-top: 2%;
+        height: 95px;
+        padding-top: 4%;
 }
 .ld_1 img{
-  width: 100px;
-        margin-left: 5px;
-        margin-top: -12px;
+  width: 0px;
+  display: none;
+        margin-left: 35px;
+        margin-top: -5px;
 }
 .homefirst{
         margin-top: -44px;
@@ -1124,35 +1129,40 @@ font-family: 'Oswald', sans-serif;
   height: 20%;
   overflow: hidden;
   margin-top: -5px;
+        padding-left: 0px;
+        text-align: left;
 }
 .ld_2top h1{
   font-size: 1.5rem;
   padding: 0;
   position: absolute;
-  width: 75%;
+  width: 55%;
   font-family: 'Poppins', 'Montserrat', sans-serif;
-  margin-left: -50px;
+  margin-left: 0px;
 }
 .ltd h2 {
-    font-size: 1rem;
+    font-size: 0.7rem;
     position: absolute;
     width: 60%;
-    margin-left: -10px;
+    margin-left: 0px;
 }
 .line{
   margin-top: 10px;
   margin-left: 10px;
   width: 150px;
 }
+.ltd{
+  padding-left: 0px;
+}
 .ld_2bottom p{
-  margin-top: 0px;
+  margin-top:22px;
   font-size: 0.7rem;
   z-index: +5;
   width: 90%;
   
   font-family: 'Poppins', 'Montserrat', sans-serif;
-  line-height: 16px;
-  margin-left: 1%;
+  line-height: 10px;
+  margin-left: 0%;
 }
 
 .cyp{
@@ -1160,7 +1170,7 @@ font-family: 'Oswald', sans-serif;
   margin-left: 200px;
 }
 .ld_2bottom {
-  margin-left: -100px;
+  margin-left: 0px;
   width: 50%;
 }
 .hfcenter{
@@ -1170,7 +1180,7 @@ font-family: 'Oswald', sans-serif;
   
         height: 980px;
         padding-top: 65px;
-  background-color: rgba(245, 245, 220, 0.908);
+  background-color:white;
   display: flex;
   flex-wrap: wrap;
 }
@@ -1245,7 +1255,7 @@ font-family: 'Oswald', sans-serif;
 .backgroundvideo{
   position: absolute;
   
-        height: 240px;
+        height: 210px;
   width: 100%;
   left: 0;
   top:0;
@@ -1271,7 +1281,7 @@ font-family: 'Oswald', sans-serif;
 }
 
 .mj{
-  height: 230px;
+  height: 322px;
   padding-top: 10px;
   width: 95%;
   font-size: 0.8rem;
@@ -1326,6 +1336,7 @@ font-family: 'Oswald', sans-serif;
   padding-top: 50px;
 }
 .nrk{
+  margin-top: -90px;
   height: 3000px;
 }
 .qr{
@@ -1349,7 +1360,7 @@ font-family: 'Oswald', sans-serif;
 
         
 .mk9{
-  height: 5430px;
+  height: 5700px;
   margin-top: 100px;
 }
 
@@ -1375,7 +1386,7 @@ font-family: 'Oswald', sans-serif;
 }
 .kj{
   height: 1200px;
-  padding-top: 200px;
+  padding-top: 50px;
   gap: 150px;
 }
 .sidecenli{
@@ -1411,7 +1422,7 @@ font-family: 'Oswald', sans-serif;
     padding-top: 7rem;
 }
 .btg {
-   margin-left: 26px;
+   margin-left: 0px;
         width: 133px;
         height: 31px;
         font-family: 'Poppins', sans-serif;
@@ -1463,14 +1474,18 @@ font-family: 'Oswald', sans-serif;
 }
 .contactmain{
   height: 2200px;
-  padding-top: 100px;
+  margin-top: -40px;
+  padding-top: 40px;
+}
+.bnm{
+  width: 0%;
 }
 
 .forrrm{
   height: 610px;
 }
 .gr3{
-  margin-left: 65%;
+  margin-left: 90%;
   font-size: 0.8rem;
   padding-top: 2%;
 }
@@ -1492,12 +1507,12 @@ font-family: 'Oswald', sans-serif;
 
 
 .hj{
-  color: black;
- 
-        font-size: 0.6rem;
-        margin-left: 24%;
-        padding-left: 2%;
-        margin-top: -32%;
+ color: black;
+        font-size: 0.5rem;
+        margin-left: 44%;
+        width: 266px;
+        padding-left: 20%;
+        margin-top: -60%;
 }
 .kk{
   font-size: 0.7rem;

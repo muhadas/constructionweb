@@ -1,45 +1,46 @@
 import React from 'react';
 import { useState } from 'react';
 
+import { Helmet } from "react-helmet-async";
 import {useEffect } from 'react'
 import { useLocation } from "react-router-dom";
-import apart1 from "./assets/apartment11.jpg"
-import apart2 from "./assets/apartment2.jpg"
-import apart3 from "./assets/apartment3.jpg"
-import apart4 from "./assets/apartment4.jpg"
-import apart5 from "./assets/apartment5.jpg"
-import apart6 from "./assets/Living _ Terrace (1)-1 ME LOGO.jpg"
-import apart7 from "./assets/livingterace1.jpg"
-import apart8 from "./assets/livingterace2.jpg"
-import apart9 from "./assets/livingterace3.jpg"
-import apart10 from "./assets/livingterace4.jpg"
-import apart11 from "./assets/livingterace5.jpg"
-import apart12 from "./assets/livingterace6.jpg"
-import house1 from "./assets/housestone1.jpg"
-import house2 from "./assets/houseston2.jpg"
-import house3 from "./assets/housestone3.jpg"
-import house4 from "./assets/housestone4.jpg"
-import house5 from "./assets/househpl4.jfif"
-import house6 from "./assets/HOUSE WITH STONE 3 WITH LOGO.jpg"
-import house7 from "./assets/HOUSE WITH STONE TWO LOGO.jpg"
+import apart1 from "./assets/image of a modern apartment 1.jpg"
+import apart2 from "./assets/image of a modern apartment 2.jpg"
+import apart3 from "./assets/image of a modern apartment 3.jpg"
+import apart4 from "./assets/image of a modern apartment 4.jpg"
+import apart5 from "./assets/image of a modern apartment 5.jpg"
+import apart6 from "./assets/image of a modern apartment 6.jpg"
+import apart7 from "./assets/image of a modern apartment balcony 7.jpg"
+import apart8 from "./assets/image of a modern apartment balcony 8.jpg"
+import apart9 from "./assets/image of a modern apartment balcony  9.jpg"
+import apart10 from "./assets/image of a modern apartment balcony  10.jpg"
+import apart11 from "./assets/image of a modern apartment balcony  11.jpg"
+import apart12 from "./assets/image of a modern apartment balcony 12.jpg"
+import house1 from "./assets/house with stone exterior 1.jpg"
+import house2 from "./assets/house with stone exterior 2.jpg"
+import house3 from "./assets/house with stone exterior 3.jpg"
+import house4 from "./assets/house with stone exterior 4.jpg"
+import house5 from "./assets/modern house interior 10.jpg"
+import house6 from "./assets/modern house interior 11.jpg"
+import house7 from "./assets/modern house interior 12.jpg"
 import house8 from "./assets/REFLET HOUSE.jpg"
-import house9 from "./assets/househpl3.jpg"
-import house10 from "./assets/housestone5.jpg"
-import house11 from "./assets/househpl5.jpg"
-import house12 from "./assets/HOUSE WITH HPL AND LOGO.jpg"
+import house9 from "./assets/Modern house design 6.jpg"
+import house10 from "./assets/house with stone exterior 5.jpg"
+import house11 from "./assets/Modern house design 7.jpg"
+import house12 from "./assets/TWO HOUSE IN FRONT HPL  8.jpg"
 
-import construction1 from "./assets/househpl1.jpg"
-import construction2 from "./assets/househpl2.jpg"
-import construction3 from "./assets/aa.jpg"
-import construction4 from "./assets/i.jpg"
-import construction5 from "./assets/j.jpg"
-import construction6 from "./assets/k.jpg"
-import construction7 from "./assets/IMG_20230321_104615 (1).jpg"
-import construction8 from "./assets/IMG_20230222_092448.jpg"
-import construction9 from "./assets/IMG_20230321_111322 (1).jpg"
-import construction10 from "./assets/re.jpg"
-import construction11 from "./assets/m.jpg"
-import construction12 from "./assets/Slide3Z.jpg"
+import construction1 from "./assets/construction site 1.jpg"
+import construction2 from "./assets/construction site 2.jpg"
+import construction3 from "./assets/construction site 3.jpg"
+import construction4 from "./assets/construction site 4.jpg"
+import construction5 from "./assets/construction site 5.jpg"
+import construction6 from "./assets/construction site 6.jpg"
+import construction7 from "./assets/construction site 7.jpg"
+import construction8 from "./assets/construction site 8.jpg"
+import construction9 from "./assets/construction site 9.jpg"
+import construction10 from "./assets/construction site 10.jpg"
+import construction11 from "./assets/construction site 11.jpg"
+import construction12 from "./assets/construction site 12.jpg"
 
 function ScrollToTop() {
   const location = useLocation();
@@ -60,6 +61,17 @@ function Projects(props) {
     const [project,setProject] = useState(p)
     return (
         <div>
+
+            <Helmet>
+                    <title>{project} Development Projects</title>
+                    <meta name="description" content="We are showcasing our developed projects. Including houses and apartments. Also showing how we maintain quality during development of the construction" />
+                 <link rel="canonical" href="https://yourwebsite.com/projects" />
+            
+                 <meta property="og:title" content="GREENLIVING Construction&Development ltd" />
+            <meta property="og:description" content="We build green/energy efficient construction projects. We provide natural sustainable designs with green space in the development area." />
+            <meta property="og:image" content="/https://yourwebsite.com/assets/logo_1.png" />
+                 
+                  </Helmet>
               <ScrollToTop />
 <main class="w-full"> 
 <section class="w-full bg-surface-container-lowest py-24 px-8 md:px-16 flex flex-col md:flex-row items-center gap-0 overflow-hidden  arc" style={{backgroundColor:"white"}}>
@@ -177,75 +189,87 @@ onClick={()=>{
 
 
 <div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-full h-full object-cover 0 group-hover:opacity-100 transition-opacity duration-500" data-alt="Monolithic skyscraper against a dark moody sky with dramatic architectural lines and deep shadows" src={project === 'apartment' ? apart1 : project === 'construction' ? construction1 : house1}  style={{height:'270px'}}/>
+<img class="w-full h-full object-cover 0 group-hover:opacity-100 transition-opacity duration-500"alt={`Image of a modern green eco-friendly ${project}`}
+  loading="lazy" src={project === 'apartment' ? apart1 : project === 'construction' ? construction1 : house1}  style={{height:'270px'}}/>
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
 
 <div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-full h-full object-cover 0 group-hover:opacity-100 transition-opacity duration-500" data-alt="Monolithic skyscraper against a dark moody sky with dramatic architectural lines and deep shadows" src={project === 'apartment' ? apart2 : project === 'construction' ? construction2 : house2}  style={{height:'270px'}}/>
+<img class="w-full h-full object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
+  loading="lazy"  src={project === 'apartment' ? apart2 : project === 'construction' ? construction2 : house2}  style={{height:'270px'}}/>
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
 
 <div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-full h-full object-cover 0 group-hover:opacity-100 transition-opacity duration-500" data-alt="Monolithic skyscraper against a dark moody sky with dramatic architectural lines and deep shadows" src={project === 'apartment' ? apart3 : project === 'construction' ? construction3 : house3}  style={{height:'270px'}}/>
+<img class="w-full h-full object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
+  loading="lazy"  src={project === 'apartment' ? apart3 : project === 'construction' ? construction3 : house3}  style={{height:'270px'}}/>
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
 <div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-full h-full object-cover 0 group-hover:opacity-100 transition-opacity duration-500" data-alt="Monolithic skyscraper against a dark moody sky with dramatic architectural lines and deep shadows" src={project === 'apartment' ? apart4 : project === 'construction' ? construction4 : house4}  style={{height:'270px'}}/>
+<img class="w-full h-full object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
+  loading="lazy"  src={project === 'apartment' ? apart4 : project === 'construction' ? construction4 : house4}  style={{height:'270px'}}/>
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
 <div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-full h-full object-cover 0 group-hover:opacity-100 transition-opacity duration-500" data-alt="Monolithic skyscraper against a dark moody sky with dramatic architectural lines and deep shadows" src={project === 'apartment' ? apart5 : project === 'construction' ? construction5 : house5}  style={{height:'270px'}}/>
+<img class="w-full h-full object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
+  loading="lazy"  src={project === 'apartment' ? apart5 : project === 'construction' ? construction5 : house5}  style={{height:'270px'}}/>
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
 <div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-full h-full object-cover 0 group-hover:opacity-100 transition-opacity duration-500" data-alt="Monolithic skyscraper against a dark moody sky with dramatic architectural lines and deep shadows" src={project === 'apartment' ? apart6 : project === 'construction' ? construction6 : house6}  style={{height:'270px'}}/>
+<img class="w-full h-full object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
+  loading="lazy"  src={project === 'apartment' ? apart6 : project === 'construction' ? construction6 : house6}  style={{height:'270px'}}/>
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
 <div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-full h-full object-cover 0 group-hover:opacity-100 transition-opacity duration-500" data-alt="Monolithic skyscraper against a dark moody sky with dramatic architectural lines and deep shadows" src={project === 'apartment' ? apart7 : project === 'construction' ? construction7 : house7}  style={{height:'270px'}}/>
+<img class="w-full h-full object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
+  loading="lazy"  src={project === 'apartment' ? apart7 : project === 'construction' ? construction7 : house7}  style={{height:'270px'}}/>
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
 <div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-full h-full object-cover 0 group-hover:opacity-100 transition-opacity duration-500" data-alt="Monolithic skyscraper against a dark moody sky with dramatic architectural lines and deep shadows" src={project === 'apartment' ? apart8 : project === 'construction' ? construction8 : house8}  style={{height:'270px'}}/>
+<img class="w-full h-full object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
+  loading="lazy"  src={project === 'apartment' ? apart8 : project === 'construction' ? construction8 : house8}  style={{height:'270px'}}/>
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
 <div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-full h-full object-cover 0 group-hover:opacity-100 transition-opacity duration-500" data-alt="Monolithic skyscraper against a dark moody sky with dramatic architectural lines and deep shadows" src={project === 'apartment' ? apart9 : project === 'construction' ? construction9 : house9}  style={{height:'270px'}}/>
+<img class="w-full h-full object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
+  loading="lazy"  src={project === 'apartment' ? apart9 : project === 'construction' ? construction9 : house9}  style={{height:'270px'}}/>
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
 <div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-full h-full object-cover 0 group-hover:opacity-100 transition-opacity duration-500" data-alt="Monolithic skyscraper against a dark moody sky with dramatic architectural lines and deep shadows" src={project === 'apartment' ? apart10 : project === 'construction' ? construction10 : house10}  style={{height:'270px'}}/>
+<img class="w-full h-full object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
+  loading="lazy"  src={project === 'apartment' ? apart10 : project === 'construction' ? construction10 : house10}  style={{height:'270px'}}/>
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
 <div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-full h-full object-cover 0 group-hover:opacity-100 transition-opacity duration-500" data-alt="Monolithic skyscraper against a dark moody sky with dramatic architectural lines and deep shadows" src={project === 'apartment' ? apart11 : project === 'construction' ? construction12 : house12}  style={{height:'270px'}}/>
+<img class="w-full h-full object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
+  loading="lazy"  src={project === 'apartment' ? apart11 : project === 'construction' ? construction12 : house12}  style={{height:'270px'}}/>
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
 <div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-full h-full object-cover 0 group-hover:opacity-100 transition-opacity duration-500" data-alt="Monolithic skyscraper against a dark moody sky with dramatic architectural lines and deep shadows" src={project === 'apartment' ? apart12 : project === 'construction' ? construction11 : house11}  style={{height:'270px'}}/>
+<img class="w-full h-full object-cover 0 group-hover:opacity-100 transition-opacity duration-500" dalt={`Image of a modern green eco-friendly ${project}`}
+  loading="lazy"  src={project === 'apartment' ? apart12 : project === 'construction' ? construction11 : house11}  style={{height:'270px'}}/>
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>

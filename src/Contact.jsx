@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { Helmet } from "react-helmet-async";
 import { useLocation } from 'react-router-dom';
 import {useEffect } from 'react'
 function ScrollToTop() {
@@ -18,7 +19,16 @@ function Contact(props) {
     return (
         <div>
               <ScrollToTop />
+              <Helmet>
+                    <title>Contact GREENLIVING</title>
+                    <meta name="description" content="Contact the leading construction company in cyprus. Contact the engery efficient construction and development company" />
+                 <link rel="canonical" href="https://yourwebsite.com/contactus" />
             
+                 <meta property="og:title" content="GREENLIVING Construction&Development ltd" />
+            <meta property="og:description" content="We build green/energy efficient construction projects. We provide natural sustainable designs with green space in the development area." />
+            <meta property="og:image" content="/https://yourwebsite.com/assets/logo_1.png" />
+                 
+                  </Helmet>
 <main class="min-h-screen contactmain" style={{backgroundColor:"white"}}>
 <section class="bg-surface-container-low px-8 py-24 md:py-32 flex flex-col items-center">
 <div class="max-w-7xl w-full grid grid-cols-1 md:grid-cols-12 gap-12">

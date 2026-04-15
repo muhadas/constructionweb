@@ -1,12 +1,13 @@
 import React from 'react';
 
+import { Helmet } from "react-helmet-async";
 import { useLocation } from 'react-router-dom';
 import {useEffect } from 'react'
 import abt from"./assets/househpl4.jfif";
 
 import abt1 from"./assets/POLYKATOIKIA PHOTOS.jpg";
 
-import abt2 from"./assets/Screenshot (584).png";
+import abt2 from"./assets/Green and Natural modern infrastructure design for buildings.png";
 
 function ScrollToTop() {
   const location = useLocation();
@@ -22,7 +23,16 @@ function About(props) {
     const lan = props.language
     return (
         <div>
+            <Helmet>
+                    <title>About GREEN LIVING</title>
+                    <meta name="description" content="Green Living is a leading construction and development company in cyprus that provide modern houses and apartments developement with nature inspired green designs" />
+                 <link rel="canonical" href="https://yourwebsite.com/aboutus" />
             
+                 <meta property="og:title" content="GREENLIVING Construction&Development ltd" />
+            <meta property="og:description" content="We build green/energy efficient construction projects. We provide natural sustainable designs with green space in the development area." />
+            <meta property="og:image" content="/https://yourwebsite.com/assets/logo_1.png" />
+                 
+                  </Helmet>
 <main class="w-full qr" >   <ScrollToTop />
 <section class="bg-surface-container-lowest py-20  md:px-24 bgt">
 <div class="max-w-7xl mx-auto flex flex-col gap-12 min-h-[60vh] justify-center"> 

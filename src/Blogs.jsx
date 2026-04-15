@@ -1,6 +1,7 @@
 import React from 'react';
 import bl1 from "./assets/Slide15.jfif"
 
+import { Helmet } from "react-helmet-async";
 import { useLocation } from 'react-router-dom';
 import {useEffect } from 'react'
 import bl2 from "./assets/Slide16.jfif"
@@ -19,6 +20,17 @@ function ScrollToTop() {
 function Blogs(props) {
     return (
         <div>
+
+            <Helmet>
+                    <title>GREEN ENERGY BLOGS</title>
+                    <meta name="description" content="GREEN LIVING provide efficient ways to achieve green engery in your house or property. We provide a detail blogs on how to achieve green energy through solar energy and through nature inspired house designs" />
+                 <link rel="canonical" href="https://yourwebsite.com/blogs" />
+            
+                 <meta property="og:title" content="GREENLIVING Construction&Development ltd" />
+            <meta property="og:description" content="We build green/energy efficient construction projects. We provide natural sustainable designs with green space in the development area." />
+            <meta property="og:image" content="/https://yourwebsite.com/assets/logo_1.png" />
+                 
+                  </Helmet>
               <ScrollToTop />
 <main class="w-full min-h-screen pb-24 nrk" style={{backgroundColor:"#fffffffa"}}>
 <section class="w-full bg-surface-container-low py-12 px-6 mb-12">
@@ -39,10 +51,10 @@ function Blogs(props) {
 <img alt="Architectural structure" class="w-full aspect-[16/9] object-cover filter   hover:grayscale-0 transition-all duration-500" data-alt="Monolithic concrete skyscraper reflecting bright sunlight against a clear blue sky, sharp angles and architectural precision." src={bl1}/>
 </div>
 <div class="flex flex-row gap-6 mt-2">
-<aside class="w-24 shrink-0 flex flex-col gap-2">
-<span class="text-[10px] font-bold uppercase tracking-widest text-primary border-l-4 border-primary pl-2 " style={{color:"black"}}>/</span>
-<span class="text-[10px] font-bold uppercase tracking-widest text-primary border-l-4 border-primary pl-2"  style={{color:"black"}}>/</span>
-<span class="text-[10px] font-bold uppercase tracking-widest text-primary border-l-4 border-primary pl-2"  style={{color:"black"}}>/</span>
+<aside class=" shrink-0 flex flex-col gap-2 bnm">
+<span class="text-[10px] font-bold uppercase tracking-widest text-primary border-l-4 border-primary pl-2 bnm" style={{color:"black"}}>/</span>
+<span class="text-[10px] font-bold uppercase tracking-widest text-primary border-l-4 border-primary pl-2 bnm"  style={{color:"black"}}>/</span>
+<span class="text-[10px] font-bold uppercase tracking-widest text-primary border-l-4 border-primary pl-2 bnm"  style={{color:"black"}}>/</span>
 </aside>
 <section class="flex-1">
 <p class="text-sm text-on-surface-variant leading-relaxed font-body">
@@ -61,10 +73,10 @@ function Blogs(props) {
 <img alt="Technology structure" class="w-full aspect-[16/9] object-cover filter   hover:grayscale-0 transition-all duration-500" data-alt="Macro photography of a modern computer processor with intricate circuitry glowing in deep neon blues and silvers." src={bl2}/>
 </div>
 <div class="flex flex-row gap-6 mt-2">
-<aside class="w-24 shrink-0 flex flex-col gap-2">
-<span class="text-[10px] font-bold uppercase tracking-widest text-primary border-l-4 border-primary pl-2"  style={{color:"black"}}>/</span>
-<span class="text-[10px] font-bold uppercase tracking-widest text-primary border-l-4 border-primary pl-2"  style={{color:"black"}}>/</span>
-<span class="text-[10px] font-bold uppercase tracking-widest text-primary border-l-4 border-primary pl-2"  style={{color:"black"}}>/</span>
+<aside class=" shrink-0 flex flex-col gap-2 bnm">
+<span class="text-[10px] font-bold uppercase tracking-widest text-primary border-l-4 border-primary pl-2  bnm"  style={{color:"black"}}>/</span>
+<span class="text-[10px] font-bold uppercase tracking-widest text-primary border-l-4 border-primary pl-2 bnm"  style={{color:"black"}}>/</span>
+<span class="text-[10px] font-bold uppercase tracking-widest text-primary border-l-4 border-primary pl-2 bnm"  style={{color:"black"}}>/</span>
 </aside>
 <section class="flex-1">
 <p class="text-sm text-on-surface-variant leading-relaxed font-body">

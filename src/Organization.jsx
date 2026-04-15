@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { Helmet } from "react-helmet-async";
 import { useLocation } from 'react-router-dom';
 import {useEffect } from 'react'
 import pfp from "./assets/collection-user-profile-avatar-icons-260nw-2705697337.jpg"
@@ -18,6 +19,16 @@ function Organization(props) {
     const lan = props.language
     return (
         <div>
+          <Helmet>
+                  <title>Organization structure</title>
+                  <meta name="description" content="GREEN LIVING CONSTRUCTION AND DEVELOPMENT has a team of specialized indivisual. mastered in creating stuning designs with green natural patches in property" />
+               <link rel="canonical" href="https://yourwebsite.com/organization" />
+          
+               <meta property="og:title" content="GREENLIVING Construction&Development ltd" />
+          <meta property="og:description" content="We build green/energy efficient construction projects. We provide natural sustainable designs with green space in the development area." />
+          <meta property="og:image" content="/https://yourwebsite.com/assets/logo_1.png" />
+               
+                </Helmet>
               <ScrollToTop />
 <main class=" pb-32 px-6 md:px-12  mx-auto mk9" style={{paddingTop:"70px"}}> 
 <section class="mb-16">

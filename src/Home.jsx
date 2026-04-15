@@ -1,33 +1,15 @@
 import { Link, Links } from 'react-router-dom'
-
+import { Helmet } from "react-helmet-async";
 import { useLocation } from 'react-router-dom';
 import {useEffect , useRef,useState } from 'react'
 import ft from './assets/Slide1.jfif'
 import logo2 from "./assets/logo_1.png"
-import solar from "./assets/Screenshot (582).png"
+import solar from "./assets/solarpanels.png"
 
-import v1 from "./assets/Screenshot (583).png"
+import v1 from "./assets/Green and Natural modern infrastructure design.png"
+import v2 from "./assets/Green and Natural modern infrastructure design for buildings.png"
 
-import v2 from "./assets/Screenshot (584).png"
-
-import we from './assets/POLYKATOIKIA ME LOGO GL09.jpg'
-import aa from "./assets/aa.jpg"
-import x from "./assets/Slide4X.jpg"
-import z from "./assets/Slide3Z.jpg"
-import l from "./assets/Slide27.jfif"
-import a from './assets/IMG_20230222_092448.jpg'
-import b from './assets/IMG_20230321_111322.jpg'
-import c from './assets/IMG_20230306_103018.jpg'
-import d from './assets/IMG_20230321_104615.jpg'
-import e from './assets/Slide5A.jpg'
-import f from './assets/Slide5ZZ.jpg'
-import g from './assets/q.jpg'
-import h from './assets/h.jpg'
-
-import i from './assets/i.jpg'
-import j from './assets/j.jpg'
-import k from './assets/k.jpg'
-import m from './assets/m.jpg'
+import we from './assets/modernhousewithgreenspace.jpg' 
 
 
 function ScrollToTop() {
@@ -46,6 +28,18 @@ function Home(props) {
 
     return(
         <>
+
+         <Helmet>
+        <title>Construction Company in Cyprus</title>
+        <meta name="description" content="The few construction company in cyprus which provide development by sustaining green enviroment. Our company speciallizes is green living life styles of our development structures. we use best materials, provide greenland in property, energy efficient designs. We build best energy efficient construction projects, Including construction of  apartments." />
+     <link rel="canonical" href="https://yourwebsite.com/" />
+
+     <meta property="og:title" content="GREENLIVING Construction&Development ltd" />
+<meta property="og:description" content="We build green/energy efficient construction projects. We provide natural sustainable designs with green space in the development area." />
+<meta property="og:image" content="/https://yourwebsite.com/assets/logo_1.png" />
+     
+      </Helmet>
+
         <div className="homefirst">
               <ScrollToTop />
           
@@ -94,7 +88,7 @@ function Home(props) {
               </sec>
               </sec>
             </div> </div>
-            <div className="hfcenter"><h2 style={{fontSize:"3rem"}}>{
+            <div className="hfcenter"><h2 style={{fontSize:"2rem"}}>{
   lan === 'greek'
     ? "Το Έργο Μας"
     : lan === 'french'
@@ -168,13 +162,13 @@ function Home(props) {
           
           </div>
 
-<section class=" relative min-h-screen flex items-center justify-center overflow-hidden pt-20 tessec ">
+<section class=" relative min-h-screen flex items-center justify-center overflow-hidden pt-40 tessec ">
 <div class="absolute inset-0 z-0">
 <img alt="Modern construction site" class="w-full h-full object-cover" data-alt="Wide angle shot of a massive modern construction site at twilight with heavy machinery and steel frameworks under dramatic cool blue lighting"  src={ft}/>
 <div class="absolute inset-0 bg-gradient-to-r from-surface via-surface/80 to-surface/40" style={{backgroundColor:"#000000b3"}}></div>
 <div class="absolute inset-0 bg-surface/20 backdrop-grayscale-[0.2]"></div>
 </div>
-<div class="relative z-10 max-w-7xl mx-auto px-8 py-24 grid lg:grid-cols-2 gap-16 items-center" >
+<div class="relative z-10 max-w-7xl mx-auto px-8 py-24 grid lg:grid-cols-2 gap-16 items-center" style={{paddingBottom:"8rem"}} >
 <div class="no2 space-y-8">
 <div class="inline-block">
 <span class="text-secondary tracking-[0.2em] uppercase text-xs font-bold bg-secondary/10 px-4 py-1.5 rounded-full" style={{color:"white"}} id="how">{
@@ -239,7 +233,7 @@ function Home(props) {
            
   </p>
 <div class="flex gap-4">
-<button class=" from-primary to-primary-container text-on-primary px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-primary/20 transition-all" style={{backgroundColor:"#74CA2D",fontSize:"0.7rem"}}>
+<button class=" from-primary to-primary-container text-on-primary px-4 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-primary/20 transition-all" style={{backgroundColor:"#74CA2D",fontSize:"0.7rem"}}>
               <Link to="/organization">          {
   lan === 'greek'
     ? "Η Ομάδα Μας"
@@ -254,7 +248,7 @@ function Home(props) {
     : "Our Team"
 }
                        </Link> </button>
-                        <button class=" from-primary to-primary-container text-on-primary px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-primary/20 transition-all" style={{backgroundColor:"#74CA2D",fontSize:"0.6rem"}}>
+                        <button class=" from-primary to-primary-container text-on-primary px-4 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-primary/20 transition-all" style={{backgroundColor:"#74CA2D",fontSize:"0.6rem"}}>
                         <Link to="/certification">    {
   lan === 'greek'
     ? "Οι Πολιτικές Μας"
@@ -346,9 +340,7 @@ function Home(props) {
 </div>
 </section>
  
-   <main class="pt-0 pb-32 overflow-hidden">
-     
-</main>
+    
 
 
 <main class="pt-0"> 
@@ -420,7 +412,8 @@ function Home(props) {
 
 
 <div class="w-full md:w-1/2 h-[442px] md:h-auto bg-surface-container-low">
-<img class="animate w-full h-full object-cover   contrast-125" data-alt="monochrome abstract close-up of a sharp-edged brutalist concrete roof structure against a clear grey sky with high contrast shadows " style={{height:"100%"}} src={v1}/>
+<img class="animate w-full h-full object-cover   contrast-125"  alt="Green and Natural modern infrastructure design"
+  loading="lazy" style={{height:"100%"}} src={v1}/>
 </div>
 </section> 
 <section class="w-full flex flex-col md:flex-row-reverse min-h-[530px] bg-surface-container-low overflow-hidden"> 
@@ -490,7 +483,9 @@ function Home(props) {
 </div>
 </div> 
 <div class="w-full md:w-1/2 h-[442px] md:h-auto bg-[#f0f4f0]">
-<img class="animate w-full h-full object-cover" data-alt="Minimalist shot of lush green pine trees reaching towards a bright white sky, high key and high contrast photography." style={{height:"100%"}} src={v2}/>
+<img class="animate w-full h-full object-cover"
+ alt="Green and Natural modern infrastructure design for buildings"
+  loading="lazy" style={{height:"100%"}} src={v2}/>
 </div>
 </section> 
 <section class="p-8 md:p-20 bg-surface tessec" style={{backgroundColor:"white"}}>
@@ -673,7 +668,7 @@ Water management systems.</p>
 </section>
 </main>
 
-    <section  className=" blur-bg w-full min-h-[600px] flex items-center py-20 px-8 lg:px-24">
+    <section  className=" blur-bg w-full min-h-[600px] flex items-center py-2 px-8 lg:px-24">
         <div class="responsive-section relative z-10 w-full flex flex-col lg:flex-row items-center justify-between gap-12">
             
             <div class="lg:w-[60%]">
@@ -712,7 +707,7 @@ Water management systems.</p>
 
 
 <div className="animate">
-<div class="  group bg-surface-variant/40 backdrop-blur-xl p-8 rounded-xl border border-white/5 hover:bg-surface-variant/60 transition-all duration-500 hover:-translate-y-2 mj " style={{backgroundColor:"#74CA2D",boxShadow:"0 4px 6px rgba(0,0,0,0.2), 0 8px 20px rgba(0,0,0,0.15)"}}>
+<div class="  group bg-surface-variant/40 backdrop-blur-xl p-8  border border-white/5 hover:bg-surface-variant/60 transition-all duration-500 hover:-translate-y-2 mj " style={{backgroundColor:"#74CA2D",boxShadow:"0 4px 6px rgba(0,0,0,0.2), 0 8px 20px rgba(0,0,0,0.15)"}}>
 
 <h3 class="text-xl font-bold text-white mb-3"  style={{color:"white"}} >1</h3>
 <p class="text-on-surface-variant text-sm leading-relaxed"  style={{color:"white"}} >
@@ -734,7 +729,7 @@ Water management systems.</p>
 
 
 <div className="animate"> 
-<div class="group bg-surface-variant/40 backdrop-blur-xl p-8 rounded-xl border border-white/5 hover:bg-surface-variant/60 transition-all duration-500 hover:-translate-y-2 mj" style={{backgroundColor:"#74CA2D",boxShadow:"0 4px 6px rgba(0,0,0,0.2), 0 8px 20px rgba(0,0,0,0.15)"}}>
+<div class="group bg-surface-variant/40 backdrop-blur-xl p-8  border border-white/5 hover:bg-surface-variant/60 transition-all duration-500 hover:-translate-y-2 mj" style={{backgroundColor:"#74CA2D",boxShadow:"0 4px 6px rgba(0,0,0,0.2), 0 8px 20px rgba(0,0,0,0.15)"}}>
 
 <h3 class="text-xl font-bold text-white mb-3"  style={{color:"white"}} >2</h3>
 <p class="text-on-surface-variant text-sm leading-relaxed"  style={{color:"white"}} >
@@ -759,7 +754,7 @@ Water management systems.</p>
 
 
 <div className="animate">
-<div class="group bg-surface-variant/40 backdrop-blur-xl p-8 rounded-xl border border-white/5 hover:bg-surface-variant/60 transition-all duration-500 hover:-translate-y-2 mj" style={{backgroundColor:"#74CA2D",boxShadow:"0 4px 6px rgba(0,0,0,0.2), 0 8px 20px rgba(0,0,0,0.15)"}}>
+<div class="group bg-surface-variant/40 backdrop-blur-xl p-8  border border-white/5 hover:bg-surface-variant/60 transition-all duration-500 hover:-translate-y-2 mj" style={{backgroundColor:"#74CA2D",boxShadow:"0 4px 6px rgba(0,0,0,0.2), 0 8px 20px rgba(0,0,0,0.15)"}}>
 
 <h3 class="text-xl font-bold text-white mb-3"  style={{color:"white"}} >3</h3>
 <p class="text-on-surface-variant text-sm leading-relaxed"  style={{color:"white"}} >
@@ -783,7 +778,7 @@ Water management systems.</p>
 
 
 <div className="animate"> 
-<div class="group bg-surface-variant/40 backdrop-blur-xl p-8 rounded-xl border border-white/5 hover:bg-surface-variant/60 transition-all duration-500 hover:-translate-y-2 mj" style={{backgroundColor:"#74CA2D",boxShadow:"0 4px 6px rgba(0,0,0,0.2), 0 8px 20px rgba(0,0,0,0.15)"}}>
+<div class="group bg-surface-variant/40 backdrop-blur-xl p-8  border border-white/5 hover:bg-surface-variant/60 transition-all duration-500 hover:-translate-y-2 mj" style={{backgroundColor:"#74CA2D",boxShadow:"0 4px 6px rgba(0,0,0,0.2), 0 8px 20px rgba(0,0,0,0.15)"}}>
 
 <h3 class="text-xl font-bold text-white mb-3 " style={{color:"white"}}>4</h3>
 <p class="text-on-surface-variant text-sm leading-relaxed"  style={{color:"white"}} >
@@ -810,7 +805,8 @@ Water management systems.</p>
 
 <div className="animate"> 
            <div class="flex-1">
-<img alt="Architectural detail" class="rounded-xl shadow-2xl object-cover h-[400px] w-full" data-alt="Modern architectural abstract showing clean lines of a concrete and glass building with strong shadows under bright daylight" src={solar} style={{width:"140%",boxShadow:"0 9px 14px rgba(0,0,0,0.2), 0 8px 20px rgba(0,0,0,0.7)"}}/>
+<img class=" shadow-2xl object-cover h-[400px] w-full" alt="Solar panels showcasing how to acheive green enegry"
+  loading="lazy" src={solar} style={{width:"140%",boxShadow:"0 9px 14px rgba(0,0,0,0.2), 0 8px 20px rgba(0,0,0,0.7)"}}/>
 </div> </div>
 
         </div>
@@ -827,7 +823,9 @@ Water management systems.</p>
   
 <div className="animate"> 
 <div class="flex-1">
-<img alt="Architectural detail" class="rounded-xl shadow-2xl object-cover h-[490px] w-full" data-alt="Modern architectural abstract showing clean lines of a concrete and glass building with strong shadows under bright daylight" style={{boxShadow:"0 33px 54px rgba(0,0,0,0.25),  20px 16px 28px rgba(0,0,0,0.2),", borderRadius:"0px, ",height:"300px"}} src={we}/>
+<img  class=" shadow-2xl object-cover h-[490px] w-full" 
+alt="modern house design with green space"
+  loading="lazy" style={{boxShadow:"0 33px 54px rgba(0,0,0,0.25),  20px 16px 28px rgba(0,0,0,0.2),", borderRadius:"0px, ",height:"300px"}} src={we}/>
 </div>
 </div>
 <div class="flex-1 space-y-6 fcs">

@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import {useEffect } from 'react'
 import logo from "./assets/logo_1.png"
 
+import { Helmet } from "react-helmet-async";
 function ScrollToTop() {
   const location = useLocation();
 
@@ -17,7 +18,22 @@ function Certification(props) {
     const lan = props.language
     return (
         <div>
+            <Helmet>
+                    <title>Certified Construction</title>
+                    <meta name="description" content="Green Living construction company acheived many qaulity certificates including. Energy Performance Certificate, Certificates of quality and authenticity for specific materials ,Concrete quality certificate,Soil quality study certificate,All our projects come with a one (1) year workmanship guarantee.
+,Energy performance certificates, Category A.
+Soil quality certificate for backfill.
+,Concrete quality certificate.
+,Authenticity certificates of selected construction materials (where applicable)., Architectural drawings (floor plans, elevations).
+,Electrical installation study,Hydraulic installation drawings, showing the exact placement of pipes.
+" />
+                 <link rel="canonical" href="https://yourwebsite.com/certification" />
             
+                 <meta property="og:title" content="GREENLIVING Construction&Development ltd" />
+            <meta property="og:description" content="We build green/energy efficient construction projects. We provide natural sustainable designs with green space in the development area." />
+            <meta property="og:image" content="/https://yourwebsite.com/assets/logo_1.png" />
+                 
+                  </Helmet>
             
       <ScrollToTop />
 <main class=" mx-auto px-8 py-12 vb" style={{backgroundColor:"#74ca2dfb",paddingTop:"2.2rem"}}>
