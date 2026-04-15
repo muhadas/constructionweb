@@ -7,6 +7,6 @@ export default defineConfig({
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] })  ],
-    base : process.env.VITE_BASE_PATH || "/constructionweb"
+    base : process.env.VITE_BASE_PATH || "/ "
 
 })

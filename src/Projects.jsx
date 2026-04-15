@@ -62,7 +62,7 @@ function Projects(props) {
         <div>
               <ScrollToTop />
 <main class="w-full"> 
-<section class="w-full bg-surface-container-lowest py-24 px-8 md:px-16 flex flex-col md:flex-row items-center gap-16 overflow-hidden  arc" style={{backgroundColor:"white"}}>
+<section class="w-full bg-surface-container-lowest py-24 px-8 md:px-16 flex flex-col md:flex-row items-center gap-0 overflow-hidden  arc" style={{backgroundColor:"white"}}>
 <div class="flex-1 max-w-2xl">
 <div class="mb-2" style={{textAlign:"left"}}>
 <span class="bg-primary text-on-primary px-3 py-1 font-label text-[10px] font-bold tracking-[0.2em] uppercase" style={{textAlign:"left"}}>PROJECTS</span>

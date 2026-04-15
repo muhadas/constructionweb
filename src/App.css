@@ -1082,8 +1082,8 @@ font-family: 'Oswald', sans-serif;
  letter-spacing: 3px;
  color: white;
  font-weight: 600;
-        width: 300px;
-        margin-left: -100px;
+        width: 250px;
+        margin-left: -114px;
 }
 .overshow{
   width: 297px;
@@ -1091,7 +1091,7 @@ font-family: 'Oswald', sans-serif;
 .theg {
     position: absolute;
     width: 100%;
-    margin-left: -88px;
+    margin-left: -130px;
     margin-top: -19px;
    
 font-family: 'Oswald', sans-serif;
@@ -1131,13 +1131,13 @@ font-family: 'Oswald', sans-serif;
   position: absolute;
   width: 75%;
   font-family: 'Poppins', 'Montserrat', sans-serif;
-  margin-left: -90px;
+  margin-left: -50px;
 }
 .ltd h2 {
     font-size: 1rem;
     position: absolute;
     width: 60%;
-    margin-left: -35px;
+    margin-left: -10px;
 }
 .line{
   margin-top: 10px;
@@ -1156,7 +1156,7 @@ font-family: 'Oswald', sans-serif;
 }
 
 .cyp{
-  margin-top: -350px;
+  margin-top: -410px;
   margin-left: 200px;
 }
 .ld_2bottom {
@@ -1244,6 +1244,8 @@ font-family: 'Oswald', sans-serif;
 }
 .backgroundvideo{
   position: absolute;
+  
+        height: 240px;
   width: 100%;
   left: 0;
   top:0;
@@ -1271,6 +1273,7 @@ font-family: 'Oswald', sans-serif;
 .mj{
   height: 230px;
   padding-top: 10px;
+  width: 95%;
   font-size: 0.8rem;
 }
 
@@ -1346,7 +1349,7 @@ font-family: 'Oswald', sans-serif;
 
         
 .mk9{
-  height: 4930px;
+  height: 5430px;
   margin-top: 100px;
 }
 
@@ -1408,8 +1411,8 @@ font-family: 'Oswald', sans-serif;
     padding-top: 7rem;
 }
 .btg {
-        margin-left:85px;
-        width: 100px;
+   margin-left: 26px;
+        width: 133px;
         height: 31px;
         font-family: 'Poppins', sans-serif;
         margin-top: 7px;
@@ -1467,7 +1470,7 @@ font-family: 'Oswald', sans-serif;
   height: 610px;
 }
 .gr3{
-  margin-left: 45%;
+  margin-left: 65%;
   font-size: 0.8rem;
   padding-top: 2%;
 }
