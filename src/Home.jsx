@@ -6,8 +6,8 @@ import ft from './assets/Slide1.jfif'
 import logo2 from "./assets/logo_1.png"
 import solar from "./assets/solarpanels.png"
 
-import v1 from "./assets/Green and Natural modern infrastructure design.png"
-import v2 from "./assets/Green and Natural modern infrastructure design for buildings.png"
+import v1 from "./assets/logo en cercle.png"
+import v2 from "./assets/house with stone exterior 4.jpg"
 
 import we from './assets/modernhousewithgreenspace.jpg' 
 
@@ -50,13 +50,13 @@ function Home(props) {
                 <div className="ld_2top">
                   <h1>{
   lan === 'greek'
-    ? "Πράσινη Διαβίωση"
+    ? "GREEN LIVING"
     : lan === 'french'
-    ? "Vie Écologique"
+    ? "GREEN LIVING"
     : lan === 'russian'
-    ? "Экологичный образ жизни"
+    ? "GREEN LIVING"
     : lan === 'hebrew'
-    ? "חיים ירוקים"
+    ? "GREEN LIVING"
     : lan === 'english'
     ? "GREEN LIVING"
     : "GREEN LIVING"
@@ -64,13 +64,13 @@ function Home(props) {
                   <div  className='ltd'>
                     <h2>{
   lan === 'greek'
-    ? "Κατασκευές & Ανάπτυξη ΕΠΕ"
+    ? "Construction & Development Ltd"
     : lan === 'french'
-    ? "Construction & Développement SARL"
+    ? "Construction & Development Ltd"
     : lan === 'russian'
-    ? "Строительство и развитие ООО"
+    ? "Construction & Development Ltd"
     : lan === 'hebrew'
-    ? "בנייה ופיתוח בע\"מ"
+    ? "Construction & Development Ltd"
     : lan === 'english'
     ? "Construction & Development Ltd"
     : "Construction & Development Ltd"
@@ -79,7 +79,7 @@ function Home(props) {
                   </div>
 
               <sec className="ld_2bottom">
-                <p>{lan === 'greek' ? "«Να δημιουργήσουμε νέες, σύγχρονες γειτονιές, προσφέροντας νέα πνοή στις πόλεις και προάγοντας έναν τρόπο ζωής υψηλής ποιότητας και υγιεινής διαβίωσης.“"
+                <p>{lan === 'greek' ? "Στόχος μας να δημιουργήσουμε νέες, σύγχρονες γειτονιές, προσφέροντας νέα πνοή στις πόλεις και προάγοντας   έναν τρόπο ζωής υψηλής   ποιότητας και υγιεινής διαβίωσης.“"
 : lan === 'french' ? "Créer de nouveaux quartiers modernes, insuffler une nouvelle vie aux villes et promouvoir un mode de vie de haute qualité et sain"
 : lan === 'russian' ? "Создавать новые современные районы, вдохновляя города новой жизнью и продвигая качественный и здоровый образ жизни"
 : lan === 'english' ? "We create new, modern neighborhoods, bringing fresh life to cities and promoting a high-quality, healthy way of living"
@@ -90,7 +90,7 @@ function Home(props) {
             </div> </div>
             <div className="hfcenter"><h2 style={{fontSize:"2rem"}}>{
   lan === 'greek'
-    ? "Το Έργο Μας"
+    ? "Τα Εργα μας"
     : lan === 'french'
     ? "Notre Travail"
     : lan === 'russian'
@@ -105,7 +105,7 @@ function Home(props) {
             <div className="hfbottom">
               <sec className="hfb  animate"  style={{height:"100%"}}><h2  style={{color:"white",fontFamily:" 'Poppins', 'Montserrat', sans-serif", marginTop:"-30px"}} >{
   lan === 'greek'
-    ? "Σπίτι"
+    ? "Κατοικίες "
     : lan === 'french'
     ? "Maison"
     : lan === 'russian'
@@ -131,7 +131,7 @@ function Home(props) {
 }</h2><section className="tophfb"></section></sec>
               <sec className="hfb3  animate"  style={{height:"100%"}}><h2 style={{color:"white",fontFamily:" 'Poppins', 'Montserrat', sans-serif" , marginTop:"-30px"}}>{
   lan === 'greek'
-    ? "Εργοτάξιο"
+    ? "Εργοτάξια"
     : lan === 'french'
     ? "Chantier"
     : lan === 'russian'
@@ -187,8 +187,8 @@ function Home(props) {
 </div>
   {lan === 'greek' ? 
   <h1 class="text-2xl md:text-2xl font-extrabold tracking-tight text-white leading-[1.1]">
-    Η Green   <br/>
-    <span class=" bg-clip-text bg-gradient-to-r from-primary to-secondary">living </span>
+  GREEN   
+    <span class=" bg-clip-text bg-gradient-to-r from-primary to-secondary"> LIVING </span>
   </h1>
 : lan === 'french' ? 
   <h1 class="text-2xl md:text-2xl font-extrabold tracking-tight text-white leading-[1.1]">
@@ -213,11 +213,11 @@ function Home(props) {
 : "home"}
            
 
-<p class="text-lg text-on-surface-variant max-w-xl leading-relaxed"  style={{color:"white"}}>
+<div class="text-lg text-on-surface-variant max-w-xl leading-relaxed"  style={{color:"white",textAlign:"justify"}}>
               {lan === 'greek' ? 
-  " αποτελεί την προσπάθεια ενσωμάτωσης της φύσης στον αστικό ιστό, ενισχύοντας τους χώρους πρασίνου και τις φυτεύσεις, συμβάλλοντας καθοριστικά στη δημιουργία πνευμόνων καθαρού αέρα και στην αναβάθμιση του αστικού περιβάλλοντος. "
+  <p> Δεν προωθούμε την κατοικία απλώς ως αυτόνομη οντότητα, αλλά ως μέρος ενός ολοκληρωμένου αστικού σχεδιασμού που στοχεύει στη βελτίωση του τρόπου και της ποιότητας ζωής στις πόλεις και τα προάστια. <br/> <br/> Το Green Living αντιπροσωπεύει την προσπάθειά μας να ενσωματώσουμε τη φύση στον αστικό ιστό, ενισχύοντας τους χώρους πρασίνου και τις φυτεύσεις, συμβάλλοντας σημαντικά στη δημιουργία ζωνών καθαρού αέρα και στη συνολική βελτίωση του αστικού περιβάλλοντος.</p>
 : lan === 'french' ? 
-  "Nous ne promouvons pas le logement simplement comme une entité isolée, mais comme une partie d’une conception urbaine globale visant à améliorer la qualité de vie dans les villes et les banlieues. Le mode de vie vert représente notre effort d’intégrer la nature dans le tissu urbain, en renforçant les espaces verts et les plantations, contribuant ainsi de manière significative à la création de zones d’air pur et à l’amélioration globale de l’environnement urbain."
+  <p>Nous ne promouvons pas le logement simplement comme une entité isolée, mais comme une partie d’une conception urbaine globale visant à améliorer la qualité de vie dans les villes et les banlieues. <br /><br /> Le mode de vie vert représente notre effort d’intégrer la nature dans le tissu urbain, en renforçant les espaces verts et les plantations, contribuant ainsi de manière significative à la création de zones d’air pur et à l’amélioration globale de l’environnement urbain.</p>
 : lan === 'russian' ? 
   "Мы не рассматриваем жильё просто как отдельную сущность, а как часть комплексного городского планирования, направленного на улучшение качества жизни в городах и пригородах. Зелёный образ жизни отражает наши усилия по интеграции природы в городскую структуру, расширению зелёных зон и насаждений, что значительно способствует созданию зон чистого воздуха и улучшению городской среды."
 : lan === 'english' ? 
@@ -231,9 +231,9 @@ function Home(props) {
 : "home"}
            
            
-  </p>
+  </div>
 <div class="flex gap-4">
-<button class=" from-primary to-primary-container text-on-primary px-4 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-primary/20 transition-all" style={{backgroundColor:"#74CA2D",fontSize:"0.7rem"}}>
+<button class=" from-primary to-primary-container text-on-primary px-4 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-primary/20 transition-all" style={{backgroundColor:"#74CA2D",fontSize:"0.9rem"}}>
               <Link to="/organization">          {
   lan === 'greek'
     ? "Η Ομάδα Μας"
@@ -248,7 +248,7 @@ function Home(props) {
     : "Our Team"
 }
                        </Link> </button>
-                        <button class=" from-primary to-primary-container text-on-primary px-4 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-primary/20 transition-all" style={{backgroundColor:"#74CA2D",fontSize:"0.6rem"}}>
+                        <button class=" from-primary to-primary-container text-on-primary px-4 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-primary/20 transition-all" style={{backgroundColor:"#74CA2D",fontSize:"0.9rem"}}>
                         <Link to="/certification">    {
   lan === 'greek'
     ? "Οι Πολιτικές Μας"
@@ -347,8 +347,10 @@ function Home(props) {
 <section class="w-full flex flex-col md:flex-row min-h-[530px] bg-surface overflow-hidden"> 
 
 
-<div class="w-full md:w-1/2 p-8 md:p-20 flex flex-col justify-center bg-surface"> 
-<h1 class="animateleft text-2xl md:text-2xl font-extrabold tracking-tighter text-primary leading-none mb-8" style={{color:"gray"}}>
+<div class="w-full md:w-[70%] p-8 md:p-20 flex flex-col justify-center bg-surface"> 
+
+<div class="arrow-right-head-2 bg-secondary-fixed w-[150%] py-6  pl-0 mb-8 animateleft ftr">
+<h1 class="animateleft text-2xl md:text-2xl font-extrabold tracking-tighter text-primary leading-none mb-8" style={{color:"white"}}>
          {lan === 'greek' ? 
   "Μικροκλίμα: Αστική Νησίδα Θερμότητας"
 : lan === 'french' ? 
@@ -362,8 +364,10 @@ function Home(props) {
 : "home"}  
 
                 </h1>
+</div>
+
              {lan === 'greek' ? 
-  <p class="animate max-w-md text-on-surface-variant leading-relaxed text-lg font-body">
+  <p class="animate max-w-[90%] text-on-surface-variant leading-relaxed text-lg font-body" style={{textAlign:"justify"}}>
     Η ηλιακή ακτινοβολία απορροφάται από τις οροφές, τις εξωτερικές επιφάνειες των κτιρίων, την άσφαλτο και λοιπά δομικά υλικά, οδηγώντας σε σημαντική αύξηση της θερμοκρασίας αυτών των επιφανειών σε αστικό περιβάλλον. Η θερμοκρασία των επιφανειών δύναται να υπερβαίνει την αντίστοιχη του περιβάλλοντος αέρα κατά 30-40°C.
     <br /><br />
     Η αύξηση αυτή επιδρά άμεσα στη θερμοκρασία του ατμοσφαιρικού αέρα στις αστικές περιοχές, συμβάλλοντας στη διαμόρφωση του φαινομένου της αστικής θερμικής νησίδας. Το φαινόμενο μπορεί να προκαλέσει άνοδο της θερμοκρασίας στο σύνολο μιας πόλης κατά 1-5°C σε σύγκριση με τις γειτονικές ημιαστικές ή αγροτικές περιοχές.
@@ -371,7 +375,7 @@ function Home(props) {
     Η ανύψωση της θερμοκρασίας στο αστικό περιβάλλον συνεπάγεται αύξηση των επιπέδων ατμοσφαιρικής ρύπανσης, καθώς και εντατικοποίηση της ζήτησης ενέργειας για την κάλυψη αναγκών ψύξης. Η ένταση του φαινομένου συνδέεται άμεσα με την αυξημένη δομημένη επιφάνεια και τη σταδιακή συρρίκνωση των ελεύθερων χώρων πρασίνου, λόγω της εντεινόμενης οικοδομικής δραστηριότητας εντός των πόλεων.
   </p>
 : lan === 'french' ? 
-  <p class="animate max-w-md text-on-surface-variant leading-relaxed text-lg font-body">
+  <p class="animate max-w-[90%] text-on-surface-variant leading-relaxed text-lg font-body" style={{textAlign:"justify"}}>
     Le rayonnement solaire est absorbé par les toits, les façades des bâtiments, l’asphalte et d’autres matériaux de construction, entraînant une augmentation significative de la température de ces surfaces en milieu urbain. Les températures de surface peuvent dépasser la température de l’air ambiant de 30 à 40°C.
     <br /><br />
     Cette augmentation affecte directement la température de l’air atmosphérique dans les zones urbaines, contribuant à la formation du phénomène d’îlot de chaleur urbain. Ce phénomène peut augmenter la température globale d’une ville de 1 à 5°C par rapport aux zones suburbaines ou rurales voisines.
@@ -379,7 +383,7 @@ function Home(props) {
     L’élévation des températures en milieu urbain entraîne une augmentation de la pollution de l’air ainsi qu’une demande accrue d’énergie pour le refroidissement. L’intensité du phénomène est directement liée à l’expansion des surfaces bâties et à la réduction progressive des espaces verts ouverts en raison de l’intensification de l’activité de construction en ville.
   </p>
 : lan === 'russian' ? 
-  <p class="animate max-w-md text-on-surface-variant leading-relaxed text-lg font-body">
+  <p class="animate max-w-[90%] text-on-surface-variant leading-relaxed text-lg font-body" style={{textAlign:"justify"}}>
     Солнечная радиация поглощается крышами, фасадами зданий, асфальтом и другими строительными материалами, что приводит к значительному повышению температуры этих поверхностей в городской среде. Температура поверхностей может превышать температуру окружающего воздуха на 30–40°C.
     <br /><br />
     Это повышение напрямую влияет на температуру атмосферного воздуха в городах, способствуя формированию эффекта городского теплового острова. Это явление может повышать общую температуру города на 1–5°C по сравнению с пригородными или сельскими районами.
@@ -387,7 +391,7 @@ function Home(props) {
     Повышение температуры в городской среде приводит к росту уровня загрязнения воздуха и увеличению потребности в энергии для охлаждения. Интенсивность явления напрямую связана с ростом застроенных территорий и постепенным сокращением зелёных открытых пространств из-за активного строительства в городах.
   </p>
 : lan === 'english' ? 
-  <p class="animate max-w-md text-on-surface-variant leading-relaxed text-lg font-body">
+  <p class="animate max-w-[90%] text-on-surface-variant leading-relaxed text-lg font-body" style={{textAlign:"justify"}}>
     Solar radiation is absorbed by rooftops, building facades, asphalt, and other construction materials, leading to a significant increase in the temperature of these surfaces in urban environments. Surface temperatures can exceed the ambient air temperature by 30–40°C.
     <br /><br />
     This increase directly affects the atmospheric air temperature in urban areas, contributing to the formation of the urban heat island phenomenon. This effect can raise the overall temperature of a city by 1–5°C compared to nearby suburban or rural areas.
@@ -395,7 +399,7 @@ function Home(props) {
     Elevated temperatures in the urban environment lead to higher levels of air pollution and increased energy demand for cooling. The intensity of the phenomenon is directly linked to the expansion of built-up areas and the gradual reduction of green open spaces due to intensified construction activity within cities.
   </p>
 : lan === 'hebrew' ? 
-  <p class="animate max-w-md text-on-surface-variant leading-relaxed text-lg font-body">
+  <p class="animate max-w-[90%] text-on-surface-variant leading-relaxed text-lg font-body" style={{textAlign:"justify"}}>
     קרינת השמש נספגת בגגות, חזיתות מבנים, אספלט וחומרי בנייה נוספים, מה שמוביל לעלייה משמעותית בטמפרטורת המשטחים בסביבה עירונית. טמפרטורת המשטחים עשויה לעלות ב־30–40 מעלות צלזיוס מעל טמפרטורת האוויר הסביבתי.
     <br /><br />
     עלייה זו משפיעה ישירות על טמפרטורת האוויר בערים ותורמת להיווצרות תופעת אי החום העירוני. תופעה זו עשויה להעלות את הטמפרטורה הכללית בעיר ב־1–5 מעלות צלזיוס בהשוואה לאזורים פרבריים או כפריים סמוכים.
@@ -412,14 +416,16 @@ function Home(props) {
 
 
 <div class="w-full md:w-1/2 h-[442px] md:h-auto bg-surface-container-low">
-<img class="animate w-full h-full object-cover   contrast-125"  alt="Green and Natural modern infrastructure design"
-  loading="lazy" style={{height:"100%"}} src={v1}/>
+<img className="animate   object-cover   contrast-125 imgt"  alt="Green and Natural modern infrastructure design "
+  loading="lazy"   src={v1}/>
 </div>
 </section> 
 <section class="w-full flex flex-col md:flex-row-reverse min-h-[530px] bg-surface-container-low overflow-hidden"> 
-<div class="w-full md:w-1/2 p-8 md:p-20 flex flex-col justify-center bg-surface-container-low"> 
-<div class="flex flex-col lg:flex-row lg:items-end gap-6 mb-8">
-<h2 class="animate text-2xl md:text-2xl font-extrabold tracking-tighter text-primary leading-none" style={{color:"gray"}}>
+<div class="w-full md:w-[65%] p-8 md:p-20 flex flex-col justify-center bg-surface-container-low"> 
+
+
+  <div class="arrow-left-head-2   w-[150%] py-8   animateright">
+<h2 class="animate text-2]xl md:text-2xl font-extrabold tracking-tighter text-primary leading-none" style={{color:"white",fontSize:"1.2rem"}}>
    
    {lan === 'greek' ? 
   "Τρόποι αντιμετώπισης της αστικής νησίδας θερμότητας"
@@ -434,10 +440,11 @@ function Home(props) {
 : "home"}
 
     </h2>
- 
 </div>
+
+ 
    {lan === 'greek' ? 
-  <p class="animate max-w-md text-on-surface-variant leading-relaxed text-lg font-body">
+  <p class="animate max-w-[100%] text-on-surface-variant leading-relaxed text-lg font-body" style={{textAlign:"justify"}}>
     Η φύτευση δέντρων γύρω από μια κατοικία συμβάλλει σημαντικά στη μείωση των ψυκτικών φορτίων. Ένα ανεπτυγμένο δέντρο μπορεί να μειώσει τις ανάγκες κλιματισμού κατά 12–24%, ενώ η ύπαρξη τριών δέντρων αυξάνει το ποσοστό αυτό στο 17–57%.
     <br /><br />
     Η σκιά των δέντρων μειώνει την ακτινοβολία και τη θερμοκρασία του περιβάλλοντος, κάνοντας τον αέρα κάτω από αυτά έως και 4,5°C πιο δροσερό. Η σκίαση που προκαλείται από τα δέντρα συνεισφέρει κατά 10–35% στη μείωση ενώ το υπόλοιπο ποσοστό οφείλεται στην εξατμισοδιαπνοή· τα φυτά απορροφούν θερμότητα από το περιβάλλον, μειώνοντας περαιτέρω τη θερμοκρασία.
@@ -445,7 +452,7 @@ function Home(props) {
     Σε αντίθεση με τα τεχνητά σκίαστρα, τα φυτά αντανακλούν πολύ λιγότερη θερμότητα και θερμαίνονται ελάχιστα, προσφέροντας ένα φυσικό, πιο αποτελεσματικό μικροκλίμα.
   </p>
 : lan === 'french' ? 
-  <p class="animate max-w-md text-on-surface-variant leading-relaxed text-lg font-body">
+  <p class="animate max-w-[100%] text-on-surface-variant leading-relaxed text-lg font-body">
     La plantation d’arbres autour d’une habitation contribue de manière significative à la réduction des besoins de refroidissement. Un arbre mature peut réduire les besoins en climatisation de 12 à 24 %, tandis que la présence de trois arbres peut porter cette réduction à 17 à 57 %.
     <br /><br />
     L’ombre des arbres réduit le rayonnement et la température ambiante, rendant l’air en dessous jusqu’à 4,5°C plus frais. Environ 10 à 35 % de cet effet de refroidissement est dû à l’ombrage, tandis que le reste est lié à l’évapotranspiration, les plantes absorbant la chaleur de l’environnement et réduisant ainsi la température.
@@ -453,7 +460,7 @@ function Home(props) {
     Contrairement aux dispositifs d’ombrage artificiels, les plantes réfléchissent très peu de chaleur et se réchauffent très légèrement, offrant un microclimat naturel et plus efficace.
   </p>
 : lan === 'russian' ? 
-  <p class="animate max-w-md text-on-surface-variant leading-relaxed text-lg font-body">
+  <p class="animate max-w-[100%] text-on-surface-variant leading-relaxed text-lg font-body" style={{textAlign:"justify"}}>
     Посадка деревьев вокруг жилого дома значительно способствует снижению потребности в охлаждении. Взрослое дерево может уменьшить потребность в кондиционировании на 12–24%, а наличие трёх деревьев увеличивает этот показатель до 17–57%.
     <br /><br />
     Тень деревьев снижает солнечное излучение и температуру окружающей среды, делая воздух под ними до 4,5°C прохладнее. Около 10–35% этого эффекта охлаждения обеспечивается затенением, а остальная часть связана с испарением и транспирацией, при которой растения поглощают тепло из окружающей среды, дополнительно снижая температуру.
@@ -461,7 +468,7 @@ function Home(props) {
     В отличие от искусственных затеняющих конструкций, растения отражают очень мало тепла и практически не нагреваются, создавая естественный и более эффективный микроклимат.
   </p>
 : lan === 'english' ? 
-  <p class="animate max-w-md text-on-surface-variant leading-relaxed text-lg font-body">
+  <p class="animate max-w-[100%] text-on-surface-variant leading-relaxed text-lg font-body" style={{textAlign:"justify"}}>
     Planting trees around a residence significantly contributes to reducing cooling loads. A mature tree can decrease air conditioning needs by 12–24%, while having three trees can increase this reduction to 17–57%.
     <br /><br />
     The shade provided by trees lowers radiation and ambient temperature, making the air beneath them up to 4.5°C cooler. Approximately 10–35% of this cooling effect comes from shading, while the remainder is due to evapotranspiration, as plants absorb heat from the environment, further reducing temperature.
@@ -469,7 +476,7 @@ function Home(props) {
     Unlike artificial shading devices, plants reflect very little heat and warm up minimally, providing a natural and more effective microclimate.
   </p>
 : lan === 'hebrew' ? 
-  <p class="animate max-w-md text-on-surface-variant leading-relaxed text-lg font-body">
+  <p class="animate max-w-[100%] text-on-surface-variant leading-relaxed text-lg font-body" style={{textAlign:"justify"}}>
     נטיעת עצים סביב מגורים תורמת באופן משמעותי להפחתת עומסי קירור. עץ בוגר יכול להפחית את הצורך במיזוג אוויר ב־12–24%, בעוד ששלושה עצים יכולים להגדיל את ההפחתה ל־17–57%.
     <br /><br />
     צל העצים מפחית קרינה וטמפרטורה סביבתית, והופך את האוויר שמתחתיהם לקריר יותר בעד 4.5 מעלות צלזיוס. כ־10–35% מהאפקט נובע מהצללה, והיתר נובע מאידוי-דיות, כאשר הצמחים סופגים חום מהסביבה ומפחיתים את הטמפרטורה.
@@ -482,10 +489,10 @@ function Home(props) {
 <div class="mt-12"> 
 </div>
 </div> 
-<div class="w-full md:w-1/2 h-[442px] md:h-auto bg-[#f0f4f0]">
-<img class="animate w-full h-full object-cover"
+<div class="w-full md:w-1/2 h-[442px] md:h-auto bg-[white]">
+<img class="animate w-full   object-cover wer"
  alt="Green and Natural modern infrastructure design for buildings"
-  loading="lazy" style={{height:"100%"}} src={v2}/>
+  loading="lazy" style={{height:"auto"}} src={v2}/>
 </div>
 </section> 
 <section class="p-8 md:p-20 bg-surface tessec" style={{backgroundColor:"white"}}>
@@ -504,10 +511,10 @@ function Home(props) {
 : "home"}      
 </span>
 </div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-1 juj">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-2 juj">
 
 
-<div class="  p-12 bg-surface-container-highest aspect-square flex flex-col justify-between" >
+<div class="  p-12 bg-surface-container-highest aspect-square flex flex-col gap-10 " >
 <span class="text-2xl font-black text-primary" style={{color:"white"}}>01</span>
 <div>
 <h3 class="text-xl font-bold mb-4 " style={{color:"white"}}>
@@ -571,7 +578,7 @@ function Home(props) {
 
 
 <div className="animate"> 
-<div class="p-12 bg-surface-container-highest aspect-square flex flex-col justify-between">
+<div class="p-12 bg-surface-container-highest aspect-square flex flex-col  gap-10  ">
 <span class="text-2xl font-black text-primary" style={{color:"white"}}>02</span>
 <div>
 <h3 class="text-xl font-bold mb-4" style={{color:"white"}}>
@@ -650,15 +657,87 @@ function Home(props) {
 
   
 <div className="animate">
-<div class="p-12 bg-primary text-on-primary aspect-square flex flex-col justify-between">
+<div class="p-12 bg-primary text-on-primary aspect-square flex flex-col   gap-10 ">
 <span class="text-2xl font-black text-on-primary" style={{color:"white"}}>03</span>
 <div>
-<h3 class="text-xl font-bold mb-4"style={{color:"white"}}>Smart Construction</h3>
-<p class="text-sm text-on-primary/70" style={{color:"white",textAlign:"left"}}>Eco-friendly materials <br />
-High-performance windows & glazing <br /> 
-Green roofs & walls <br /> 
-Thermal mass optimization <br /> 
-Water management systems.</p>
+<h3 class="text-xl font-bold mb-4"style={{color:"white"}}>{
+  lan === 'greek'
+    ? "Έξυπνη κατασκευή"
+    : lan === 'french'
+    ? "Construction intelligente"
+    : lan === 'russian'
+    ? "Умное строительство"
+    : lan === 'hebrew'
+    ? "בנייה חכמה"
+    : lan === 'english'
+    ? "Smart Construction"
+    : "Smart Construction"
+}</h3>
+<p class="text-sm text-on-primary/70" style={{color:"white",textAlign:"left"}}>{
+  lan === 'greek'
+    ? "Οικολογικά υλικά"
+    : lan === 'french'
+    ? "Matériaux écologiques"
+    : lan === 'russian'
+    ? "Экологичные материалы"
+    : lan === 'hebrew'
+    ? "חומרים ידידותיים לסביבה"
+    : lan === 'english'
+    ? "Eco-friendly materials"
+    : "Eco-friendly materials"
+} <br />
+{
+  lan === 'greek'
+    ? "Παράθυρα και υαλοπίνακες υψηλής απόδοσης"
+    : lan === 'french'
+    ? "Fenêtres et vitrages haute performance"
+    : lan === 'russian'
+    ? "Высокоэффективные окна и остекление"
+    : lan === 'hebrew'
+    ? "חלונות וזיגוג בעלי ביצועים גבוהים"
+    : lan === 'english'
+    ? "High-performance windows & glazing"
+    : "High-performance windows & glazing"
+}<br /> 
+{
+  lan === 'greek'
+    ? "Πράσινες στέγες και τοίχοι"
+    : lan === 'french'
+    ? "Toits et murs végétalisés"
+    : lan === 'russian'
+    ? "Зелёные крыши и стены"
+    : lan === 'hebrew'
+    ? "גגות וקירות ירוקים"
+    : lan === 'english'
+    ? "Green roofs & walls"
+    : "Green roofs & walls"
+}<br /> 
+{
+  lan === 'greek'
+    ? "Βελτιστοποίηση θερμικής μάζας"
+    : lan === 'french'
+    ? "Optimisation de la masse thermique"
+    : lan === 'russian'
+    ? "Оптимизация тепловой массы"
+    : lan === 'hebrew'
+    ? "אופטימיזציה של מסה תרמית"
+    : lan === 'english'
+    ? "Thermal mass optimization"
+    : "Thermal mass optimization"
+} <br /> 
+{
+  lan === 'greek'
+    ? "Συστήματα διαχείρισης νερού"
+    : lan === 'french'
+    ? "Systèmes de gestion de l'eau"
+    : lan === 'russian'
+    ? "Системы управления водными ресурсами"
+    : lan === 'hebrew'
+    ? "מערכות ניהול מים"
+    : lan === 'english'
+    ? "Water management systems"
+    : "Water management systems"
+}.</p>
 </div>
 </div>
 
@@ -668,7 +747,7 @@ Water management systems.</p>
 </section>
 </main>
 
-    <section  className=" blur-bg w-full min-h-[600px] flex items-center py-2 px-8 lg:px-24">
+    <section  className=" blur-bg w-full min-h-[600px] flex items-center py-6 px-8 lg:px-24">
         <div class="responsive-section relative z-10 w-full flex flex-col lg:flex-row items-center justify-between gap-12">
             
             <div class="lg:w-[60%]">
@@ -821,17 +900,17 @@ Water management systems.</p>
 <section class="bg-surface-container-low py-0 px-8">
 <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16 kj">
   
-<div className="animate"> 
+<div className="animate ete" > 
 <div class="flex-1">
-<img  class=" shadow-2xl object-cover h-[490px] w-full" 
+<img  class=" shadow-2xl object-cover    rtr" 
 alt="modern house design with green space"
-  loading="lazy" style={{boxShadow:"0 33px 54px rgba(0,0,0,0.25),  20px 16px 28px rgba(0,0,0,0.2),", borderRadius:"0px, ",height:"300px"}} src={we}/>
+  loading="lazy" style={{boxShadow:"0 33px 54px rgba(0,0,0,0.25),  20px 16px 28px rgba(0,0,0,0.2),", borderRadius:"0px, "}} src={we}/>
 </div>
 </div>
 <div class="flex-1 space-y-6 fcs">
 <h2 class="animateleft text-2xl font-bold text-white tracking-tight" style={{color:"gray"}}>
     {lan === 'greek' ? 
-  "Green Spaces and Sustainable Urban Development"
+  "Πράσινοι χώροι και βιώσιμη αστική ανάπτυξη"
 : lan === 'french' ? 
   "Espaces verts et développement urbain durable"
 : lan === 'russian' ? 
@@ -843,31 +922,31 @@ alt="modern house design with green space"
 : "home"}       
 .</h2>
  {lan === 'greek' ? 
-  <p class="animate text-on-surface-variant leading-relaxed text-lg">
+  <p class="animate text-on-surface-variant leading-relaxed text-lg" style={{textAlign:'justify'}}>
     Η πρόβλεψη μεγάλων κήπων και η διάθεση επαρκών εκτάσεων γης για την ανάπτυξη πράσινων ζωνών στις οικιστικές αστικές περιοχές αποτελεί ουσιώδες στοιχείο της βιώσιμης πολεοδομικής ανάπτυξης.
     <br /><br />
     Στο συνολικό κόστος των ακινήτων προβλέπεται ποσό το οποίο κατευθύνεται στην ανάπτυξη χώρων πρασίνου και στον σχεδιασμό τοπίου, συμβάλλοντας στη δημιουργία δροσερών και ευχάριστων μικροκλιμάτων εντός των πόλεων.
   </p>
 : lan === 'french' ? 
-  <p class="animate text-on-surface-variant leading-relaxed text-lg">
+  <p class="animate text-on-surface-variant leading-relaxed text-lg" style={{textAlign:'justify'}}>
     La planification de grands jardins et l’allocation de terrains suffisants pour le développement de zones vertes dans les zones résidentielles urbaines constituent un élément fondamental de l’urbanisme durable.
     <br /><br />
     Une partie du coût total des biens immobiliers est dédiée au développement des espaces verts et à l’aménagement paysager, contribuant à la création de microclimats plus frais et agréables au sein des villes.
   </p>
-: lan === ' russian' ? 
-  <p class="animate text-on-surface-variant leading-relaxed text-lg">
+: lan === ' russian' ?  
+  <p class="animate text-on-surface-variant leading-relaxed text-lg" style={{textAlign:'justify'}}>
     Планирование больших садов и выделение достаточных земельных участков для развития зелёных зон в жилых городских районах является важным элементом устойчивого городского развития.
     <br /><br />
     Часть общей стоимости недвижимости направляется на развитие зелёных зон и ландшафтный дизайн, способствуя созданию более прохладного и комфортного микроклимата в городах.
   </p>
 : lan === 'english' ? 
-  <p class="animate text-on-surface-variant leading-relaxed text-lg">
+  <p class="animate text-on-surface-variant leading-relaxed text-lg" style={{textAlign:'justify'}}>
     Planning for large gardens and allocating sufficient land for the development of green zones in residential urban areas is a fundamental element of sustainable urban planning.
     <br /><br />
     A portion of the total cost of the properties is dedicated to the development of green spaces and landscape design, contributing to the creation of cooler and more pleasant microclimates within the cities.
   </p>
 : lan === 'hebrew' ? 
-  <p class="animate text-on-surface-variant leading-relaxed text-lg">
+  <p class="animate text-on-surface-variant leading-relaxed text-lg" style={{textAlign:'justify'}}>
     תכנון גינות גדולות והקצאת שטחי קרקע מספקים לפיתוח אזורי ירוק בשטחים עירוניים למגורים מהווים מרכיב מרכזי בתכנון עירוני בר־קיימא.
     <br /><br />
     חלק מעלות הנכסים מוקדש לפיתוח שטחים ירוקים ולעיצוב נוף, התורמים ליצירת מיקרו־אקלים קריר ונעים יותר בתוך הערים.

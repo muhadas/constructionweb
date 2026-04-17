@@ -7,8 +7,7 @@ import abt from"./assets/househpl4.jfif";
 
 import abt1 from"./assets/POLYKATOIKIA PHOTOS.jpg";
 
-import abt2 from"./assets/Green and Natural modern infrastructure design for buildings.png";
-
+import abt2 from"./assets/house with stone exterior 5.jpg"
 function ScrollToTop() {
   const location = useLocation();
 
@@ -62,8 +61,8 @@ function About(props) {
 <div class="flex flex-col md:flex-row gap-16 items-center">
 
 
-<div class="w-full md:w-1/2 aspect-square bg-surface-container overflow-hidden animate  maso">
-<img class="w-full h-full object-cover" data-alt="Wide angle shot of a massive concrete monolith building under dramatic overcast sky, brutalist architecture style" src={abt1}/>
+<div class="w-full md:w-1/2 aspect-square   overflow-hidden animate   " style={{marginTop:"5%"}}>
+<img class="w-full  object-cover" data-alt="Wide angle shot of a massive concrete monolith building under dramatic overcast sky, brutalist architecture style" src={abt1}/>
 </div>
 
 
@@ -89,7 +88,7 @@ function About(props) {
 <section class="bg-surface-container-low py-24 px-8 md:px-24 nr" style={{backgroundColor:"rgb(255 255 255 / 92%)"}}>
 <div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-20 items-center">
 <div class="w-full md:w-3/5">
-<span class="font-label text-[11px] font-bold tracking-[0.2em] text-primary uppercase mb-4 block" style={{color:"black"}}>
+<span class="font-label text-[18px] font-bold tracking-[0.2em] text-primary uppercase mb-4 block" style={{color:"black"}}>
    {lan === 'greek' ? 
   "Η φιλοσοφία μας"
 : lan === 'french' ? 
@@ -115,7 +114,7 @@ function About(props) {
   "איננו מתייחסים לדיור כיחידה מבודדת. להפך, אנו שואפים לתכנן סביבות מגורים משולבות."
 : "home"}
   </h2>
-<p class="font-body text-on-surface-variant mb-10 leading-relaxed max-w-xl" style={{textAlign:"left"}}>
+<p class="font-body text-on-surface-variant mb-10 leading-relaxed max-w-xl" style={{textAlign:"left",fontSize:"1.3rem"}}>
          
         {lan === 'greek' ? 
   "Στόχος μας είναι η δημιουργία χώρων που:"
@@ -130,142 +129,142 @@ function About(props) {
 : "home"}
 </p>
       {lan === 'greek' ? 
-  <ul class="flex flex-col gap-6" style={{textAlign:"left"}}>
+  <ul class="flex flex-col gap-4 rc" style={{textAlign:"left",fontSize:"1.2rem"}}>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1" data-icon="check_circle">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">ενσωματώνονται αρμονικά στον αστικό ιστό</span>
+     <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">ενσωματώνονται αρμονικά στον αστικό ιστό</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1" data-icon="check_circle">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">αναβαθμίζουν την καθημερινότητα</span>
+  <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">αναβαθμίζουν την καθημερινότητα</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1" data-icon="check_circle">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">βελτιώνουν ουσιαστικά την ποιότητα ζωής</span>
+  <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold tracking-tight">βελτιώνουν ουσιαστικά την ποιότητα ζωής</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1" data-icon="check_circle">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">λειτουργικούς χώρους</span>
+       <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">λειτουργικούς χώρους</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1" data-icon="check_circle">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">σύγχρονη αισθητική</span>
+      <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">σύγχρονη αισθητική</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1" data-icon="check_circle">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">βιώσιμες λύσεις</span>
+    <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">βιώσιμες λύσεις</span>
     </li>
   </ul>
 
 : lan === 'french' ? 
-  <ul class="flex flex-col gap-6" style={{textAlign:"left"}}>
+  <ul class="flex flex-col gap-4 rc" style={{textAlign:"left",fontSize:"1.2rem"}}>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">s’intègrent harmonieusement dans le tissu urbain</span>
+       <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">s’intègrent harmonieusement dans le tissu urbain</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">améliorent la vie quotidienne</span>
+       <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">améliorent la vie quotidienne</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">améliorent significativement la qualité de vie</span>
+      <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">améliorent significativement la qualité de vie</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">espaces fonctionnels</span>
+ <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">espaces fonctionnels</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">esthétique contemporaine</span>
+      <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">esthétique contemporaine</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">solutions durables</span>
+      <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">solutions durables</span>
     </li>
   </ul>
 
 : lan === 'russian' ? 
-  <ul class="flex flex-col gap-6" style={{textAlign:"left"}}> 
+  <ul class="flex flex-col gap-4 rc" style={{textAlign:"left",fontSize:"1.2rem"}}> 
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">гармонично интегрируются в городскую среду</span>
+     <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">гармонично интегрируются в городскую среду</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">улучшают повседневную жизнь</span>
+      <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">улучшают повседневную жизнь</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">существенно повышают качество жизни</span>
+       <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">существенно повышают качество жизни</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">функциональные пространства</span>
+      <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">функциональные пространства</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">современная эстетика</span>
+   <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">современная эстетика</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">устойчивые решения</span>
+      <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">устойчивые решения</span>
     </li>
   </ul>
 
 : lan === 'english' ? 
-  <ul class="flex flex-col gap-6" style={{textAlign:"left"}}>
+  <ul class="flex flex-col gap-4 rc" style={{textAlign:"left",fontSize:"1.2rem"}}>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1" data-icon="check_circle">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">integrate harmoniously into the urban fabric</span>
+    <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">integrate harmoniously into the urban fabric</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1" data-icon="check_circle">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">enhance everyday life</span>
+     <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">enhance everyday life</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1" data-icon="check_circle">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">meaningfully improve quality of life</span>
+     <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">meaningfully improve quality of life</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1" data-icon="check_circle">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">offer functional spaces</span>
+     <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">offer functional spaces</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1" data-icon="check_circle">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">feature contemporary aesthetics</span>
+    <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">feature contemporary aesthetics</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1" data-icon="check_circle">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">incorporate sustainable solutions</span>
+      <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">incorporate sustainable solutions</span>
     </li>
   </ul>
 
 : lan === 'hebrew' ? 
-  <ul class="flex flex-col gap-6" style={{textAlign:"left"}}>
+  <ul class="flex flex-col gap-4 rc" style={{textAlign:"left",fontSize:"1.2rem"}}>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">משתלבים בהרמוניה במרקם העירוני</span>
+      <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">משתלבים בהרמוניה במרקם העירוני</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">משפרים את חיי היומיום</span>
+       <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">משפרים את חיי היומיום</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">משפרים משמעותית את איכות החיים</span>
+      <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">משפרים משמעותית את איכות החיים</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">מרחבים פונקציונליים</span>
+      <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">מרחבים פונקציונליים</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">אסתטיקה מודרנית</span>
+    <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">אסתטיקה מודרנית</span>
     </li>
     <li class="flex items-start gap-4">
-      <span class="material-symbols-outlined text-primary mt-1">check_circle</span>
-      <span class="font-body font-bold text-sm tracking-tight">פתרונות בני־קיימא</span>
+      <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">פתרונות בני־קיימא</span>
     </li>
   </ul>
 
@@ -283,12 +282,12 @@ function About(props) {
 </div>
 </section> 
 <section class="bg-surface py-24 px-8 md:px-24 nr" style={{backgroundColor:"rgb(255 255 255 / 92%)"}}>
-<div class="max-w-7xl mx-auto flex flex-col-reverse md:flex-row gap-20 items-center">
-<div class="w-full md:w-2/5 aspect-square bg-surface-container-highest animate maso">
-<img class="w-full h-full object-cover" data-alt="Strategic planning session in a minimalist office with sharp shadows and technical blueprints laid out on a stone table" src={abt2}/>
+<div class="max-w-7xl mx-auto flex flex-col-reverse md:flex-row gap-20 items-center" style={{backgroundColor:"white"}}>
+<div class="w-full md:w-2/5 aspect-square   animate maso">
+<img class="w-full object-cover" data-alt="Strategic planning session in a minimalist office with sharp shadows and technical blueprints laid out on a stone table" style={{backgroundColor:"white",marginTop:"15%"}} src={abt2}/>
 </div>
 <div class="w-full md:w-3/5">
-<span class="font-label text-[11px] font-bold tracking-[0.2em] text-primary uppercase mb-4 block" style={{color:"black"}}>
+<span class="font-label text-[18px] font-bold tracking-[0.2em] text-primary uppercase mb-4 block" style={{color:"black"}}>
     
       {lan === 'greek' ? 
   "Η δέσμευσή μας"
@@ -332,142 +331,142 @@ function About(props) {
       </p>
 
     {lan === 'greek' ? 
-<ul class="flex flex-col gap-6" style={{color:"black",textAlign:"left"}}>
+<ul class="flex flex-col gap-4 rc" style={{textAlign:"left",fontSize:"1.2rem"}}>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1" data-icon="verified_user">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">την ενσωμάτωση της φύσης μέσα στην πόλη</span>
+    <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">την ενσωμάτωση της φύσης μέσα στην πόλη</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1" data-icon="verified_user">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">την ενίσχυση των χώρων πρασίνου</span>
+    <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">την ενίσχυση των χώρων πρασίνου</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1" data-icon="verified_user">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">τη δημιουργία «πνευμόνων» καθαρού αέρα</span>
+    <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">τη δημιουργία «πνευμόνων» καθαρού αέρα</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1" data-icon="verified_user">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">τη βελτίωση του μικροκλίματος</span>
+    <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">τη βελτίωση του μικροκλίματος</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1" data-icon="verified_user">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">την αναβάθμιση του αστικού περιβάλλοντος</span>
+    <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">την αναβάθμιση του αστικού περιβάλλοντος</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1" data-icon="verified_user">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">σε έναν πιο υγιή και βιώσιμο τρόπο ζωής</span>
+    <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">σε έναν πιο υγιή και βιώσιμο τρόπο ζωής</span>
   </li>
 </ul>
 
 : lan === 'french' ? 
-<ul class="flex flex-col gap-6" style={{color:"black",textAlign:"left"}}>
+<ul class="flex flex-col gap-4 rc" style={{textAlign:"left",fontSize:"1.2rem"}}>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">intégrer la nature dans la ville</span>
+   <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">intégrer la nature dans la ville</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">renforcer les espaces verts</span>
+   <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">renforcer les espaces verts</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">créer des « poumons » d’air pur</span>
+   <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">créer des « poumons » d’air pur</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">améliorer le microclimat</span>
+   <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">améliorer le microclimat</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">améliorer l’environnement urbain</span>
+   <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">améliorer l’environnement urbain</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">promouvoir un mode de vie plus sain et durable</span>
+   <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">promouvoir un mode de vie plus sain et durable</span>
   </li>
 </ul>
 
 : lan === 'russian' ? 
-<ul class="flex flex-col gap-6" style={{color:"black",textAlign:"left"}}>
+<ul class="flex flex-col gap-4 rc" style={{textAlign:"left",fontSize:"1.2rem"}}>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">интеграция природы в город</span>
+   <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">интеграция природы в город</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">укрепление зелёных зон</span>
+   <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">укрепление зелёных зон</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">создание «лёгких» чистого воздуха</span>
+   <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">создание «лёгких» чистого воздуха</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">улучшение микроклимата</span>
+   <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">улучшение микроклимата</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">улучшение городской среды</span>
+   <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">улучшение городской среды</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">более здоровый и устойчивый образ жизни</span>
+   <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">более здоровый и устойчивый образ жизни</span>
   </li>
 </ul>
 
 : lan === 'english' ? 
-<ul class="flex flex-col gap-6" style={{color:"black",textAlign:"left"}}>
+<ul class="flex flex-col gap-4 rc" style={{textAlign:"left",fontSize:"1.2rem"}}>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1" data-icon="verified_user">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">integrate nature into the city</span>
+    <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">integrate nature into the city</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1" data-icon="verified_user">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">enhance green spaces</span>
+    <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">enhance green spaces</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1" data-icon="verified_user">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">create “lungs” of clean air</span>
+    <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">create “lungs” of clean air</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1" data-icon="verified_user">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">improving the microclimate</span>
+    <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">improving the microclimate</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1" data-icon="verified_user">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">upgrading the urban environment</span>
+    <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">upgrading the urban environment</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1" data-icon="verified_user">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">promoting a healthier and more sustainable lifestyle</span>
+    <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">promoting a healthier and more sustainable lifestyle</span>
   </li>
 </ul>
 
 : lan === 'hebrew' ? 
-<ul class="flex flex-col gap-6 " style={{color:"black",textAlign:"left"}}>
+<ul class="flex flex-col gap-4 rc" style={{textAlign:"left",fontSize:"1.2rem"}}>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">שילוב הטבע בעיר</span>
+   <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">שילוב הטבע בעיר</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">חיזוק השטחים הירוקים</span>
+   <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">חיזוק השטחים הירוקים</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">יצירת "ריאות" של אוויר נקי</span>
+   <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">יצירת "ריאות" של אוויר נקי</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">שיפור המיקרו־אקלים</span>
+   <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">שיפור המיקרו־אקלים</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">שדרוג הסביבה העירונית</span>
+   <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">שדרוג הסביבה העירונית</span>
   </li>
   <li class="flex items-start gap-4">
-    <span class="material-symbols-outlined text-primary mt-1">verified_user</span>
-    <span class="font-body font-bold text-sm tracking-tight">קידום אורח חיים בריא ובר־קיימא</span>
+   <i class="fa-solid fa-circle-check" style={{marginLeft:"17%"}}></i>
+      <span class="font-body font-bold  tracking-tight">קידום אורח חיים בריא ובר־קיימא</span>
   </li>
 </ul>
 

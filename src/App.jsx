@@ -1,5 +1,6 @@
 import {useEffect, useState } from 'react'
 
+import emailjs from '@emailjs/browser';
 import { useLocation } from 'react-router-dom';
 import { useRef } from 'react'
 import { Routes, Route ,Link } from "react-router-dom"; 
@@ -11,8 +12,7 @@ import logo2 from "./assets/logo_2.png"
 import backgroundVideo from "./assets/background.mp4"; 
 import Home from "./Home"
 import Certification from './Certification';
-import Projects from './Projects';
-import screens from "./assets/er.avif"
+import Projects from './Projects'; 
 import Organization from './Organization';
 import Contact from './Contact';
 import Blogs from './Blogs';
@@ -50,6 +50,8 @@ function App() {
   useEffect(() => {
     const elements = document.querySelectorAll(".animate");
   const elements2 = document.querySelectorAll(".animateleft");
+  
+  const elements3 = document.querySelectorAll(".animateright");
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry, i) => {
         if (entry.isIntersecting) {
@@ -65,18 +67,49 @@ function App() {
     elements.forEach((el) => observer.observe(el));
     
     elements2.forEach((el) => observer.observe(el));
+    
+    elements3.forEach((el) => observer.observe(el));
 
     return () => observer.disconnect();
   }, [location]);
   
   
 
+  
+  const[name,setName]=useState("not provided")
+  const[email,setEmail]=useState()
+  const[message,setMessage]=useState("not provided")
+  const[phone,setPhone]=useState("not provided")
+  var serviceID = "service_rrbee09"
+  var templateID = "template_5jjim5n"
+  
+  var userID = "dr8L5wxcbaDVb8vhG"
+ const handlesubmit= (e) =>{
+  e.preventDefault()
+  var templateparams = {
+    name:name,
+    email:email,
+    message:message,
+    phone: phone
+  }
+  emailjs.send(serviceID, templateID, templateparams ,userID).then(
+  (response) => {
+    console.log('SUCCESS!', response.status, response.text);
+    
+  alert("thank you for providing email. Our officials will contact you soon")
+  },
+  (error) => {
+    console.log('FAILED...', error);
+  },
+);
+ }
+
+
 
   return (
     <>
      
-           <div className="hero">
-            <img src={screens} className='backimg' alt="" />
+           <div className="hero"> 
             <nav className="main">
               <section className='sides' style={{textAlign:'left'}}>
                 <button className="nav-left"><Link to="/">{
@@ -192,9 +225,10 @@ function App() {
 }</Link></button>
                 <button className="nav-right dropdown-title"
                  onClick={menutoogle}>{lan} ▼    <div id="menu" class="dropdown-menu">
-    <a href="#" onClick={()=>{setlan('french'), menutoogle}}>french</a>
+   
     <a href="#" onClick={()=>{setlan('greek') ,menutoogle}}>greek</a>
     <a href="#" onClick={()=>{setlan('english'),menutoogle}}>english</a>
+     <a href="#" onClick={()=>{setlan('french'), menutoogle}}>french</a>
     <a href="#" onClick={()=>{setlan('russian'),menutoogle}}>russian</a>
     <a href="#" onClick={()=>{setlan('hebrew'),menutoogle}}>hebrew</a>
   </div></button>
@@ -440,22 +474,22 @@ function App() {
 <div class="h-24 px-12 flex items-center justify-between border-b border-[#414753]/15">
 <span class="text-2xl font-bold tracking-tighter text-[white]">{
   lan === 'greek'
-    ? "Πράσινη Διαβίωση"
+    ? "GREEN LIVING"
     : lan === 'french'
-    ? "Vie écologique"
+    ? "GREEN LIVING"
     : lan === 'russian'
-    ? "Экологичный образ жизни"
+    ? "GREEN LIVING"
     : lan === 'hebrew'
-    ? "חיים ירוקים"
+    ? "GREEN LIVING"
     : lan === 'english'
     ? "GREEN LIVING"
     : "GREEN LIVING"
 }</span>
 <div class="flex items-center gap-6">
-<button className="nav-right"><i class="fab fa-facebook"></i></button>
-                <button className="nav-right"><i class="fab fa-tiktok"></i></button>
-                <button className="nav-right"><i class="fab fa-instagram"></i></button>
-                <button className="nav-right"><i class="fab fa-linkedin"></i></button>
+<button className="nav-right" style={{fontSize:"1.5rem", color:"white"}}><i class="fab fa-facebook"></i></button>
+                <button className="nav-right" style={{fontSize:"1.5rem", color:"white"}} ><i class="fab fa-tiktok"></i></button>
+                <button className="nav-right" style={{fontSize:"1.5rem", color:"white"}}><i class="fab fa-instagram"></i></button>
+                <button className="nav-right" style={{fontSize:"1.5rem", color:"white"}}><i class="fab fa-linkedin"></i></button>
                 
 </div>
 </div>
@@ -477,7 +511,8 @@ function App() {
 }</p>
 <p class="text-on-surface leading-relaxed" style={{color:"white"}}>green.living2025@outlook.com
 </p>
-<p class="text-on-surface leading-relaxed"  style={{color:"white"}}>+35799440242</p>
+<p class="text-on-surface leading-relaxed"  style={{color:"white"}}>(+357) 99440242
+</p>
 </div>
 <div>
 <p class="text-tertiary label-md uppercase tracking-widest mb-4" style={{textAlign:"left",paddingLeft:"4%"}}>{
@@ -494,8 +529,8 @@ function App() {
     : "Address"
 }</p>
 <p class="text-on-surface leading-relaxed"  style={{color:"white"}}>
-                            51 Avenue Makariou, Lakatamia, <br/>
-                          2311 Nicosia, Cyprus 
+                            251 Avenue Makariou, Lakatamia, <br/>
+                           Nicosia, Cyprus 
                             </p>
 </div>
 </div>
@@ -577,7 +612,7 @@ function App() {
 }</h2>
 <p class="text-[#b0c7f9]/70 mb-8 max-w-xs" style={{textAlign:"left" ,color:"white"}}>{
   lan === 'greek'
-    ? "Δώστε το email σας εδώ, θα επικοινωνήσουμε σύντομα μαζί σας. Ή κάντε κλικ στα εικονίδια κοινωνικών δικτύων"
+    ? "«Συμπληρώστε το email σας και θα επικοινωνήσουμε άμεσα μαζί σας ή επιλέξτε ένα από τα εικονίδια κοινωνικών δικτύων.»"
     : lan === 'french'
     ? "Entrez votre e-mail ici, nous vous contacterons bientôt. Ou cliquez sur les icônes sociales"
     : lan === 'russian'
@@ -590,9 +625,11 @@ function App() {
 }.</p>
 <form class="space-y-4">
 <div class="group relative">
-<input class="w-full bg-surface-container-highest border-none focus:ring-1 focus:ring-primary text-on-surface px-6 py-4 rounded-none placeholder:text-outline/50 transition-all duration-300" placeholder="Your email" type="email" style={{backgroundColor:"white"}}/>
+<input class="w-full bg-surface-container-highest border-none focus:ring-1 focus:ring-primary text-on-surface px-6 py-4 rounded-none placeholder:text-outline/50 transition-all duration-300" placeholder="Your email" type="email" style={{backgroundColor:"white"}} onChange={(e)=>{
+  setEmail(e.target.value)
+}}/>
 </div>
-<button class="w-full bg-green  from-primary to-primary-container text-on-primary font-bold py-4 px-8 rounded-none flex items-center justify-between group hover:brightness-110 transition-all duration-300" type="submit">
+<button class="w-full bg-green  from-primary to-primary-container text-on-primary font-bold py-4 px-8 rounded-none flex items-center justify-between group hover:brightness-110 transition-all duration-300" type="submit" onClick={handlesubmit}>
 <span>SUBMIT </span>
 <span class="material-symbols-outlined transition-transform duration-300 group-hover:translate-x-2" data-icon="arrow_right_alt">arrow_right_alt</span>
 </button>

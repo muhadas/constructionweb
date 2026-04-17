@@ -32,7 +32,7 @@ function Organization(props) {
               <ScrollToTop />
 <main class=" pb-32 px-6 md:px-12  mx-auto mk9" style={{paddingTop:"70px"}}> 
 <section class="mb-16">
-<h2 class="font-headline font-extrabold    tracking-tighter mb-4 rotate-90 hj">ORGANIZATION STRUCTURE</h2>
+<h2 class="font-headline font-extrabold    tracking-tighter mb-4  hj"> GREEN LIVING <br />&nbsp; &nbsp; &nbsp;Construstion & Development</h2>
 <div class=" h-2 bg-primary mb-8 ht"></div>
 
   {lan === 'greek' ? 
@@ -67,9 +67,9 @@ function Organization(props) {
   
 <div class="  p-4 animate " style={{width:"100%" ,boxShadow: "0 33px 54px rgba(0,0,0,0.25),  20px 16px 28px rgba(0,0,0,0.2)" ,marginBottom:"4%"}}>
 <div class="bg-matrix-green text-white p-12 chamfer-clip min-h-[400px] flex flex-col items-center text-center" style={{textAlign:"left"}}>
-<div class="w-24 h-24 bg-white/10 flex items-center justify-center mb-8"> <img src={pfp} alt="" />
+<div class="w-24 h-4   flex items-center justify-center mb-8" >  
 </div>
-<h3 class="font-headline font-bold  uppercase rotate-90 ghu">
+<h3 class="font-headline font-bold  uppercase  ghu">
    {lan === 'greek' ? 
   "Διευθύνοντος"
 : lan === 'french' ? 
@@ -162,17 +162,16 @@ function Organization(props) {
 
 <div class="animate  p-4 bbb"  style={{textAlign:"left" ,boxShadow: "0 33px 54px rgba(0,0,0,0.25),  20px 16px 28px rgba(0,0,0,0.2)"}}>
 <div class=" bg-matrix-green text-white p-12 chamfer-clip min-h-[400px] flex flex-col items-center text-center" style={{textAlign:"left" ,boxShadow: "0 33px 54px rgba(0,0,0,0.25),  20px 16px 28px rgba(0,0,0,0.2)"}}>
-<div class="w-24 h-24 bg-white/10 flex items-center justify-center mb-8">
- <img src={pfp} alt="" />
+<div class="w-24 h-4   flex items-center justify-center mb-8"> 
 </div>
 
-<h3 class="font-headline font-bold  uppercase rotate-90 ghu"
+<h3 class="font-headline font-bold  uppercase   ghu"
 >
     
     Project Engineer</h3>
 <h3 class="font-headline text-2xl font-bold tracking-tight mb-4 uppercase" style={{color:"black"}}><br />
   {lan === 'greek' ? 
-  "Αρμοδιότητες Τεχνικού Έργου και Επίβλεψης"
+  "Αρμοδιότητες ΤΕΧΝΙΚΟΥ Έργου και ΕΠΙΒΛΕΨΗΣ"
 : lan === 'french' ? 
   "Responsabilités techniques et de supervision"
 : lan === 'russian' ? 
@@ -239,11 +238,10 @@ function Organization(props) {
 </div> 
 <div class="animate  p-4 bbb" style={{textAlign:"left" ,boxShadow: "0 33px 54px rgba(0,0,0,0.25),  20px 16px 28px rgba(0,0,0,0.2)"}}>
 <div class="bg-matrix-green text-white p-12 chamfer-clip min-h-[400px] flex flex-col items-center text-center" style={{textAlign:"left"}}>
-<div class="w-24 h-24 bg-white/10 flex items-center justify-center mb-8">
- <img src={pfp} alt="" />
+<div class="w-24 h-4   flex items-center justify-center mb-8"> 
 </div>
 
-<h3 class="font-headline font-bold  uppercase rotate-90 ghu">Accountant</h3>
+<h3 class="font-headline font-bold  uppercase   ghu">Accountant</h3>
 <h3 class="font-headline text-2xl font-bold tracking-tight mb-4 uppercase" style={{color:"black"}}> <br />
  {lan === 'greek' ? 
   "Αρμοδιότητες Εκτιμητή / Λογιστή"
@@ -313,11 +311,10 @@ function Organization(props) {
 </div> 
 <div class="animate   p-4 bbb" style={{textAlign:"left" ,boxShadow: "0 33px 54px rgba(0,0,0,0.25),  20px 16px 28px rgba(0,0,0,0.2)"}}>
 <div class="bg-matrix-green text-white p-12 chamfer-clip min-h-[400px] flex flex-col items-center text-center" style={{textAlign:"left"}}>
-<div class="w-24 h-24 bg-white/10 flex items-center justify-center mb-8 relative">
- <img src={pfp} alt="" />
+<div class="w-24 h-4  flex items-center justify-center mb-8 relative"> 
 </div>
 
-<h3 class="font-headline font-bold  uppercase rotate-90 ghu">Architect</h3>
+<h3 class="font-headline font-bold  uppercase   ghu">Architect</h3>
 <h3 class="font-headline text-2xl font-bold tracking-tight mb-4 uppercase" style={{color:"black"}}>
    {lan === 'greek' ? 
   "Αρχιτέκτονας"
@@ -349,11 +346,10 @@ function Organization(props) {
 </div> 
 <div class="animate   p-4 bbb" style={{textAlign:"left" ,boxShadow: "0 33px 54px rgba(0,0,0,0.25),  20px 16px 28px rgba(0,0,0,0.2)"}}>
 <div class="bg-matrix-green text-white p-12 chamfer-clip min-h-[400px] flex flex-col items-center text-center" style={{textAlign:"left"}}>
-<div class="w-24 h-24 bg-white/10 flex items-center justify-center mb-8">
- <img src={pfp} alt="" />
+<div class="w-24 h-4   flex items-center justify-center mb-8"> 
 </div>
 
-<h3 class="font-headline font-bold  uppercase rotate-90 ghu">Civil Engineer</h3>
+<h3 class="font-headline font-bold  uppercase  ghu">Civil Engineer</h3>
 <h3 class="font-headline text-2xl font-bold tracking-tight mb-4 uppercase" style={{color:"black"}}>
     {lan === 'greek' ? 
   "Πολιτικός Μηχανικός"
@@ -384,11 +380,10 @@ function Organization(props) {
 </div> 
 <div class="animate   p-4 bbb" style={{textAlign:"left" ,boxShadow: "0 33px 54px rgba(0,0,0,0.25),  20px 16px 28px rgba(0,0,0,0.2)"}}>
 <div class="bg-matrix-green text-white p-12 chamfer-clip min-h-[400px] flex flex-col items-center text-center" style={{textAlign:"left"}}>
-<div class="w-24 h-24 bg-white/10 flex items-center justify-center mb-8">
- <img src={pfp} alt="" />
+<div class="w-24 h-4   flex items-center justify-center mb-8"> 
 </div>
 
-<h3 class="font-headline font-bold  uppercase rotate-90 ghu">Mechanical Engineer</h3>
+<h3 class="font-headline font-bold  uppercase   ghu">Mechanical Engineer</h3>
 <h3 class="font-headline text-2xl font-bold tracking-tight mb-4 uppercase" style={{color:"black"}}>
    {lan === 'greek' ? 
   "Μηχανολόγος Μηχανικός"
@@ -451,11 +446,10 @@ function Organization(props) {
 </div> 
 <div class="animate p-4 bbb" style={{textAlign:"left" ,boxShadow: "0 33px 54px rgba(0,0,0,0.25),  20px 16px 28px rgba(0,0,0,0.2)"}}>
 <div class="bg-matrix-green text-white p-12 chamfer-clip min-h-[400px] flex flex-col items-center text-center" style={{textAlign:"left"}}>
-<div class="w-24 h-24 bg-white/10 flex items-center justify-center mb-8">
- <img src={pfp} alt="" />
+<div class="w-24 h-4   flex items-center justify-center mb-8"> 
 </div>
 
-<h3 class="font-headline font-bold  uppercase rotate-90 ghu">Electrical Engineer</h3>
+<h3 class="font-headline font-bold  uppercase  ghu">Electrical Engineer</h3>
 <h3 class="font-headline text-2xl font-bold tracking-tight mb-4 uppercase" style={{color:"black"}}> 
     {lan === 'greek' ? 
   "Ηλεκτρολόγος Μηχανικός"

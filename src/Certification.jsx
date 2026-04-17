@@ -37,8 +37,7 @@ Soil quality certificate for backfill.
             
       <ScrollToTop />
 <main class=" mx-auto px-8 py-12 vb" style={{backgroundColor:"#74ca2dfb",paddingTop:"2.2rem"}}>
-    <h2 class=" rotate-90 gr" style={{color:"#ffffff"}}>GREEN LIVING
-</h2>
+     
 <div class="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-12  ">
 <section class="space-y-8">
 <div class="arrow-right-head bg-primary-fixed w-[90%] py-6 pl-8 pr-16 animateleft">
@@ -131,10 +130,9 @@ Soil quality certificate for backfill.
 <img src={logo} alt="" className='qy' />
 </div>
 </div>
-<div class="mt-8 ">
-      <h2 class=" rotate-90 gr2" style={{color:"#ffffff"}}>OF QUALITY
-</h2>
-<div class="arrow-left-head bg-secondary-fixed w-[90%] py-6 pr-8 pl-16 mb-8 ml-auto">
+<div class="mt-8 " style={{overflow:"hidden"}}>
+     
+<div class="arrow-left-head bg-secondary-fixed w-[90%] py-6 pr-8 pl-16 mb-8 ml-auto animateright">
 <h2 class="font-headline font-extrabold text-on-secondary-fixed text-xl text-right" style={{color:"#74ca2d",textAlign:"left",paddingLeft:"20%"}}>
    {lan === 'greek' ? 
   "Εγγυήσεις"
@@ -420,8 +418,8 @@ At the same time, all residences incorporate green spaces and landscape architec
 </div>
 </section>
 <section class="mt-20 pt-12 border-t border-surface-container-high">
-<div class="arrow-wide-80 bg-primary-container  py-8 pl-10 pr-20 mb-12 animateleft">
-<h2 class="font-headline font-extrabold text-on-primary-container text-2xl tracking-tight nm" style={{color:"#41c315" , textAlign:"right"}}>
+<div class="arrow-wide-80 bg-primary-container  py-8 pl-10 pr-0 mb-12 animateleft">
+<h2 class="font-headline font-extrabold text-on-primary-container text-1xl tracking-tight nm" style={{color:"#41c315" , textAlign:"right" ,marginRight:"6%", fontSize:"1.1rem",lineHeight:"20px",width:"90%",paddingLeft:"6%"}}>
      {lan === 'greek' ? 
   "Απαραίτητα Πιστοποιητικά και Μελέτες για Τεχνικό Φάκελο Έργου"
 : lan === 'french' ? 
@@ -479,9 +477,9 @@ The complete project documentation, as described in this file, is a prerequisite
 : "home"}
  
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4" style={{marginTop:"50px"}}>
-<div class="animate flex gap-4   p-4 bg-white/50 rounded-lg">
-<span class="font-headline font-extrabold text-primary text-xl">01</span>
-<p class="text-on-surface-variant font-medium leading-tight text-sm" style={{color:"#ffffff" , textAlign:"left"}}>
+<div class="animate flex gap-4   p-4 bg-white rounded-lg">
+<span class="font-headline font-extrabold text-primary text-xl" style={{color:"#74ca2df5"}}>01</span>
+<p class="text-on-surface-variant font-medium leading-tight text-sm" style={{color:"#74ca2df5" , textAlign:"left"}}>
      {lan === 'greek' ? 
   "Πιστοποιητικά ενεργειακής απόδοσης κατηγορίας Α’."
 : lan === 'french' ? 
@@ -495,9 +493,9 @@ The complete project documentation, as described in this file, is a prerequisite
 : "home"}
 </p>
 </div>
-<div class="animate flex gap-4   p-4 bg-white/50 rounded-lg">
-<span class="font-headline font-extrabold text-primary text-xl">02</span>
-<p class="text-on-surface-variant font-medium leading-tight text-sm" style={{color:"#ffffff" , textAlign:"left"}}>
+<div class="animate flex gap-4   p-4 bg-white rounded-lg">
+<span class="font-headline font-extrabold text-primary text-xl" style={{color:"#74ca2df5"}}>02</span>
+<p class="text-on-surface-variant font-medium leading-tight text-sm" style={{color:"#74ca2df5" , textAlign:"left"}}>
     {lan === 'greek' ? 
   "Πιστοποιητικό ποιότητας του εδάφους επιχωμάτωσης."
 : lan === 'french' ? 
@@ -511,9 +509,9 @@ The complete project documentation, as described in this file, is a prerequisite
 : "home"}
 </p>
 </div>
-<div class="animate flex gap-4   p-4 bg-white/50 rounded-lg">
-<span class="font-headline font-extrabold text-primary text-xl">03</span>
-<p class="text-on-surface-variant font-medium leading-tight text-sm" style={{color:"#ffffff" , textAlign:"left"}}>
+<div class="animate flex gap-4   p-4 bg-white rounded-lg">
+<span class="font-headline font-extrabold text-primary text-xl" style={{color:"#74ca2df5"}}>03</span>
+<p class="text-on-surface-variant font-medium leading-tight text-sm" style={{color:"#74ca2df5" , textAlign:"left"}}>
      {lan === 'greek' ? 
   "Πιστοποιητικό ποιότητας σκυροδέματος (μπετόν)."
 : lan === 'french' ? 
@@ -527,9 +525,9 @@ The complete project documentation, as described in this file, is a prerequisite
 : "home"}
 </p>
 </div>
-<div class="animate flex gap-4   p-4 bg-white/50 rounded-lg">
-<span class="font-headline font-extrabold text-primary text-xl">04</span>
-<p class="text-on-surface-variant font-medium leading-tight text-sm" style={{color:"#ffffff" , textAlign:"left"}}>
+<div class="animate flex gap-4   p-4 bg-white rounded-lg">
+<span class="font-headline font-extrabold text-primary text-xl" style={{color:"#74ca2df5"}}>04</span>
+<p class="text-on-surface-variant font-medium leading-tight text-sm" style={{color:"#74ca2df5" , textAlign:"left"}}>
      {lan === 'greek' ? 
   "Πιστοποιητικά αυθεντικότητας επιλεγμένων δομικών υλικών (όπου είναι εφικτό)."
 : lan === 'french' ? 
@@ -543,9 +541,9 @@ The complete project documentation, as described in this file, is a prerequisite
 : "home"}
 </p>
 </div>
-<div class="animate flex gap-4   p-4 bg-white/50 rounded-lg">
-<span class="font-headline font-extrabold text-primary text-xl">05</span>
-<p class="text-on-surface-variant font-medium leading-tight text-sm" style={{color:"#ffffff" , textAlign:"left"}}>
+<div class="animate flex gap-4   p-4 bg-white rounded-lg">
+<span class="font-headline font-extrabold text-primary text-xl"style={{color:"#74ca2df5"}} >05</span>
+<p class="text-on-surface-variant font-medium leading-tight text-sm" style={{color:"#74ca2df5" , textAlign:"left"}}>
      {lan === 'greek' ? 
   "Αρχιτεκτονικά σχέδια (κατόψεις, όψεις)."
 : lan === 'french' ? 
@@ -559,9 +557,9 @@ The complete project documentation, as described in this file, is a prerequisite
 : "home"}
 </p>
 </div>
-<div class="animate flex gap-4   p-4 bg-white/50 rounded-lg">
-<span class="font-headline font-extrabold text-primary text-xl">06</span>
-<p class="text-on-surface-variant font-medium leading-tight text-sm" style={{color:"#ffffff" , textAlign:"left"}}>
+<div class="animate flex gap-4   p-4 bg-white rounded-lg">
+<span class="font-headline font-extrabold text-primary text-xl" style={{color:"#74ca2df5"}}>06</span>
+<p class="text-on-surface-variant font-medium leading-tight text-sm" style={{color:"#74ca2df5" , textAlign:"left"}}>
      {lan === 'greek' ? 
   "Ηλεκτρολογική μελέτη εγκαταστάσεων."
 : lan === 'french' ? 
@@ -575,9 +573,9 @@ The complete project documentation, as described in this file, is a prerequisite
 : "home"}
 </p>
 </div>
-<div class="animate flex gap-4   p-4 bg-white/50 rounded-lg">
-<span class="font-headline font-extrabold text-primary text-xl">07</span>
-<p class="text-on-surface-variant font-medium leading-tight text-sm" style={{color:"#ffffff" , textAlign:"left"}}>
+<div class="animate flex gap-4   p-4 bg-white rounded-lg">
+<span class="font-headline font-extrabold text-primary text-xl" style={{color:"#74ca2df5"}}>07</span>
+<p class="text-on-surface-variant font-medium leading-tight text-sm" style={{color:"#74ca2df5" , textAlign:"left"}}>
      {lan === 'greek' ? 
   "Σχέδια υδραυλικών εγκαταστάσεων, με αποτύπωση της ακριβούς τοποθέτησης των σωληνώσεων."
 : lan === 'french' ? 
