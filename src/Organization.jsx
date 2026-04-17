@@ -69,7 +69,7 @@ function Organization(props) {
 <div class="bg-matrix-green text-white p-12 chamfer-clip min-h-[400px] flex flex-col items-center text-center" style={{textAlign:"left"}}>
 <div class="w-24 h-4   flex items-center justify-center mb-8" >  
 </div>
-<h3 class="font-headline font-bold  uppercase  ghu">
+<h3 class="font-headline font-bold     ghu">
    {lan === 'greek' ? 
   "Διευθύνοντος"
 : lan === 'french' ? 
@@ -81,7 +81,7 @@ function Organization(props) {
 : lan === 'hebrew' ? 
   "צוות ניהולי"
 : "home"} </h3>
-<h3 class="font-headline text-2xl font-bold tracking-tight mb-4 uppercase" style={{color:"black"}}>
+<h3 class="font-headline text-2xl font-bold tracking-tight mb-4  " style={{color:"black"}}>
     {lan === 'greek' ? 
   "Καθήκοντα Προσωπικού"
 : lan === 'french' ? 
@@ -165,13 +165,13 @@ function Organization(props) {
 <div class="w-24 h-4   flex items-center justify-center mb-8"> 
 </div>
 
-<h3 class="font-headline font-bold  uppercase   ghu"
+<h3 class="font-headline font-bold      ghu"
 >
     
     Project Engineer</h3>
-<h3 class="font-headline text-2xl font-bold tracking-tight mb-4 uppercase" style={{color:"black"}}><br />
+<h3 class="font-headline text-2xl font-bold tracking-tight mb-4  " style={{color:"black"}}><br />
   {lan === 'greek' ? 
-  "Αρμοδιότητες ΤΕΧΝΙΚΟΥ Έργου και ΕΠΙΒΛΕΨΗΣ"
+  "Αρμοδιότητες Τεχνικού Έργου και Επίβλεψης"
 : lan === 'french' ? 
   "Responsabilités techniques et de supervision"
 : lan === 'russian' ? 
@@ -241,8 +241,8 @@ function Organization(props) {
 <div class="w-24 h-4   flex items-center justify-center mb-8"> 
 </div>
 
-<h3 class="font-headline font-bold  uppercase   ghu">Accountant</h3>
-<h3 class="font-headline text-2xl font-bold tracking-tight mb-4 uppercase" style={{color:"black"}}> <br />
+<h3 class="font-headline font-bold      ghu">Accountant</h3>
+<h3 class="font-headline text-2xl font-bold tracking-tight mb-4  " style={{color:"black"}}> <br />
  {lan === 'greek' ? 
   "Αρμοδιότητες Εκτιμητή / Λογιστή"
 : lan === 'french' ? 
@@ -314,8 +314,8 @@ function Organization(props) {
 <div class="w-24 h-4  flex items-center justify-center mb-8 relative"> 
 </div>
 
-<h3 class="font-headline font-bold  uppercase   ghu">Architect</h3>
-<h3 class="font-headline text-2xl font-bold tracking-tight mb-4 uppercase" style={{color:"black"}}>
+<h3 class="font-headline font-bold      ghu">Architect</h3>
+<h3 class="font-headline text-2xl font-bold tracking-tight mb-4  " style={{color:"black"}}>
    {lan === 'greek' ? 
   "Αρχιτέκτονας"
 : lan === 'french' ? 
@@ -349,8 +349,8 @@ function Organization(props) {
 <div class="w-24 h-4   flex items-center justify-center mb-8"> 
 </div>
 
-<h3 class="font-headline font-bold  uppercase  ghu">Civil Engineer</h3>
-<h3 class="font-headline text-2xl font-bold tracking-tight mb-4 uppercase" style={{color:"black"}}>
+<h3 class="font-headline font-bold     ghu">Civil Engineer</h3>
+<h3 class="font-headline text-2xl font-bold tracking-tight mb-4  " style={{color:"black"}}>
     {lan === 'greek' ? 
   "Πολιτικός Μηχανικός"
 : lan === 'french' ? 
@@ -383,8 +383,8 @@ function Organization(props) {
 <div class="w-24 h-4   flex items-center justify-center mb-8"> 
 </div>
 
-<h3 class="font-headline font-bold  uppercase   ghu">Mechanical Engineer</h3>
-<h3 class="font-headline text-2xl font-bold tracking-tight mb-4 uppercase" style={{color:"black"}}>
+<h3 class="font-headline font-bold      ghu">Mechanical Engineer</h3>
+<h3 class="font-headline text-2xl font-bold tracking-tight mb-4  " style={{color:"black"}}>
    {lan === 'greek' ? 
   "Μηχανολόγος Μηχανικός"
 : lan === 'french' ? 
@@ -449,8 +449,8 @@ function Organization(props) {
 <div class="w-24 h-4   flex items-center justify-center mb-8"> 
 </div>
 
-<h3 class="font-headline font-bold  uppercase  ghu">Electrical Engineer</h3>
-<h3 class="font-headline text-2xl font-bold tracking-tight mb-4 uppercase" style={{color:"black"}}> 
+<h3 class="font-headline font-bold     ghu">Electrical Engineer</h3>
+<h3 class="font-headline text-2xl font-bold tracking-tight mb-4  " style={{color:"black"}}> 
     {lan === 'greek' ? 
   "Ηλεκτρολόγος Μηχανικός"
 : lan === 'french' ? 

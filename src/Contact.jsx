@@ -169,7 +169,7 @@ onChange={(e)=>{
 <div class="grid grid-cols-1 md:grid-cols-4 gap-8" >
 <div class="md:col-span-2 bg-surface-container-highest p-12 flex flex-col  min-h-[300px] border-l-4 border-primary" style={{boxShadow: "0 33px 54px rgba(0,0,0,0.25),  20px 16px 28px rgba(0,0,0,0.2)" }}>
 
-                <button className="nav-right" style={{fontSize:"2rem", marginBottom:"10%"}}><i class="fa-solid fa-location-dot"></i></button>
+                <button className="nav-right" style={{fontSize:"2rem", marginBottom:"10%",color:"white"}}><i class="fa-solid fa-location-dot"></i></button>
 <div>
 <h3 class="text-2xl font-bold mb-2">ADDRESS</h3>
 <p class="text-on-surface-variant uppercase tracking-wider text-sm" style={{fontSize:"1rem"}}> 251 Avenue Makariou, Lakatamia<br/>2311 Nicosia, Cyprus </p>
@@ -183,10 +183,10 @@ onChange={(e)=>{
 </div>
 </div>
 <div class="bg-primary text-white p-12 flex flex-col " style={{boxShadow: "0 33px 54px rgba(0,0,0,0.25),  20px 16px 28px rgba(0,0,0,0.2)" }}>
-                <button className="nav-right" style={{fontSize:"2rem", marginBottom:"25%"}}><i class="fa-solid fa-envelope"></i></button>
+                <button className="nav-right" style={{fontSize:"2rem", marginBottom:"25%",color:"white"}}><i class="fa-solid fa-envelope"></i></button>
 <div>
 <h3 class="text-xl font-bold mb-2" style={{color:"white"}}>EMAIL</h3>
-<p class="text-on-surface-variant text-xs font-bold uppercase tracking-[0.2em]" style={{fontSize:"1rem"}}>green.living2025 <br />@outlook.com
+<p class="text-on-surface-variant text-xs font-bold    " style={{fontSize:"1rem"}}>green.living2025 <br />@outlook.com
 </p>
 </div>
 </div>

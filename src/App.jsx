@@ -181,7 +181,7 @@ function App() {
     : "Organization"
 }</Link></button>
               </section>
-              <section className="center"><img src={logo2} alt="" />  <button className='ham' onClick={showpsidemenu}><i class="fa-solid fa-bars"></i></button></section>
+              <section className="center"><img src= "" alt="" />  <button className='ham' onClick={showpsidemenu}><i class="fa-solid fa-bars"></i></button></section>
                <section className='sides' style={{textAlign:'right'}}>
                 <button className="nav-left"><Link to="/certification">{
   lan === 'greek'
@@ -226,11 +226,11 @@ function App() {
                 <button className="nav-right dropdown-title"
                  onClick={menutoogle}>{lan} ▼    <div id="menu" class="dropdown-menu">
    
-    <a href="#" onClick={()=>{setlan('greek') ,menutoogle}}>greek</a>
-    <a href="#" onClick={()=>{setlan('english'),menutoogle}}>english</a>
-     <a href="#" onClick={()=>{setlan('french'), menutoogle}}>french</a>
-    <a href="#" onClick={()=>{setlan('russian'),menutoogle}}>russian</a>
-    <a href="#" onClick={()=>{setlan('hebrew'),menutoogle}}>hebrew</a>
+    <a href="#" onClick={()=>{setlan('greek') ,menutoogle}} style={{color:"#515151"}}>greek</a>
+    <a href="#" onClick={()=>{setlan('english'),menutoogle}} style={{color:"#515151"}}>english</a>
+     <a href="#" onClick={()=>{setlan('french'), menutoogle}} style={{color:"#515151"}}>french</a>
+    <a href="#" onClick={()=>{setlan('russian'),menutoogle}} style={{color:"#515151"}}>russian</a>
+    <a href="#" onClick={()=>{setlan('hebrew'),menutoogle}} style={{color:"#515151"}}>hebrew</a>
   </div></button>
               
                 <button className="nav-right"><i class="fab fa-facebook"></i></button>
@@ -496,7 +496,7 @@ function App() {
 <div class="flex-grow p-12 space-y-8 bg-surface-container-low/30 backdrop-blur-md">
 <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
 <div>
-<p class="text-tertiary label-md uppercase tracking-widest mb-4" style={{textAlign:"left",paddingLeft:"4%"}}>{
+<p class="text-tertiary label-md   tracking-widest mb-4" style={{textAlign:"left",paddingLeft:"4%"}}>{
   lan === 'greek'
     ? "Επικοινωνία μέσω"
     : lan === 'french'
@@ -515,7 +515,7 @@ function App() {
 </p>
 </div>
 <div>
-<p class="text-tertiary label-md uppercase tracking-widest mb-4" style={{textAlign:"left",paddingLeft:"4%"}}>{
+<p class="text-tertiary label-md   tracking-widest mb-4" style={{textAlign:"left",paddingLeft:"4%"}}>{
   lan === 'greek'
     ? "Διεύθυνση"
     : lan === 'french'

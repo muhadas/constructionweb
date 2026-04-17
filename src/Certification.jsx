@@ -59,6 +59,7 @@ Soil quality certificate for backfill.
 <div class="  absolute top-0 bottom-3 w-[8px] bg-white left-[-36px]" style={{borderRadius:"5px"}}></div>
 <div class="relative pl-10">
 <p class="text-on-surface-variant font-medium" style={{color:"#ffffff" , textAlign:"left"}}>
+  <i class="fa-solid fa-angle-right  gtr2"  ></i>
   {lan === 'greek' ? 
   "Πιστοποιητικό ενεργειακής απόδοσης, το οποίο αποτυπώνει την ενεργειακή κατηγοριοποίηση του κτιρίου σύμφωνα με την ισχύουσα νομοθεσία."
 : lan === 'french' ? 
@@ -76,6 +77,7 @@ Soil quality certificate for backfill.
 
    
 <p class="text-on-surface-variant font-medium" style={{color:"#ffffff" , textAlign:"left"}}>
+  <i class="fa-solid fa-angle-right  gtr2"  ></i>
   {lan === 'greek' ? 
   "Πιστοποιητικά ποιότητας και αυθεντικότητας για ορισμένα υλικά που χρησιμοποιούνται στην κατασκευή."
 : lan === 'french' ? 
@@ -92,6 +94,7 @@ Soil quality certificate for backfill.
 
    
 <p class="text-on-surface-variant font-medium" style={{color:"#ffffff" , textAlign:"left"}}>
+  <i class="fa-solid fa-angle-right  gtr2"  ></i>
    {lan === 'greek' ? 
   "Πιστοποιητικό ποιότητας σκυροδέματος, για τη διασφάλιση της συμμόρφωσης με τις προβλεπόμενες προδιαγραφές αντοχής και διάρκειας ζωής του φέροντος οργανισμού."
 : lan === 'french' ? 
@@ -109,6 +112,7 @@ Soil quality certificate for backfill.
 
    
 <p class="text-on-surface-variant font-medium" style={{color:"#ffffff" , textAlign:"left"}}>
+  <i class="fa-solid fa-angle-right  gtr2"  ></i>
     {lan === 'greek' ? 
   "Πιστοποιητικό μελέτης της ποιότητας του εδάφους, με σκοπό την αξιολόγηση των γεωτεχνικών χαρακτηριστικών και της καταλληλότητας της θεμελίωσης."
 : lan === 'french' ? 
@@ -150,11 +154,12 @@ Soil quality certificate for backfill.
 <div class="relative w-full max-w-sm space-y-6">
 <div class="absolute top-3 bottom-3 w-[8px] bg-white right-[-8px]" style={{borderRadius:"5px"}}></div>
 <div class="relative pr-10 text-right"> 
-<p class="text-on-surface-variant font-medium" style={{color:"#ffffff" , textAlign:"right"}}
+ 
+<p class="text-on-surface-variant font-medium" style={{color:"#ffffff" , textAlign:"left"}}
 
->
+> <i class="fa-solid fa-angle-right  gtr"  ></i>
    {lan === 'greek' ? 
-  "Όλα τα έργα μας συνοδεύονται από εγγύηση καλής εκτέλεσης διάρκειας ενός (1) έτους."
+  " Όλα τα έργα μας συνοδεύονται από εγγύηση καλής εκτέλεσης διάρκειας ενός (1) έτους."
 : lan === 'french' ? 
   "Tous nos projets sont accompagnés d’une garantie de bonne exécution d’une durée d’un (1) an."
 : lan === 'russian' ? 
@@ -164,10 +169,10 @@ Soil quality certificate for backfill.
 : lan === 'hebrew' ? 
   "כל הפרויקטים שלנו מלווים באחריות ביצוע למשך שנה אחת (1)."
 : "home"}</p>
-   
-    All our projects come with a one (1) year workmanship guarantee.</div>
+   </div>
 <div class="relative pr-10 text-right"> 
-<p class="text-on-surface-variant font-medium"  style={{color:"#ffffff" , textAlign:"right"}}>
+<p class="text-on-surface-variant font-medium"  style={{color:"#ffffff" , textAlign:"left"}}>
+  <i class="fa-solid fa-angle-right  gtr"  ></i>
    {lan === 'greek' ? 
   "Επιπλέον, ορισμένα υλικά διαθέτουν εγγύηση σύμφωνα με τις τεχνικές προδιαγραφές που θα παρέχονται από τους υποεργολάβους"
 : lan === 'french' ? 
@@ -181,7 +186,8 @@ Soil quality certificate for backfill.
 : "home"}.</p>
 </div>
 <div class="relative pr-10 text-right"> 
-<p class="text-on-surface-variant font-medium"  style={{color:"#ffffff" , textAlign:"right"}}>
+<p class="text-on-surface-variant font-medium"  style={{color:"#ffffff" , textAlign:"left"}}>
+  <i class="fa-solid fa-angle-right  gtr"  ></i>
      {lan === 'greek' ? 
   "Η έκδοση της απαιτούμενης άδειας οικοδομής εξασφαλίζεται πριν από την έναρξη οποιασδήποτε εργασίας στο εργοτάξιο"
 : lan === 'french' ? 
@@ -198,7 +204,8 @@ Soil quality certificate for backfill.
 </div>
 
 <div class="relative pr-10 text-right">
-<p class="text-on-surface-variant font-medium"  style={{color:"#ffffff" , textAlign:"right"}}>
+<p class="text-on-surface-variant font-medium"  style={{color:"#ffffff" , textAlign:"left"}}>
+  <i class="fa-solid fa-angle-right  gtr"  ></i>
       {lan === 'greek' ? 
   "Τέλος, παρέχεται εγγύηση διασφάλισης τίτλου ιδιοκτησίας προς τους τελικούς αγοραστές, διασφαλίζοντας τη νομιμότητα και τη διαφάνεια των δικαιοπραξιών"
 : lan === 'french' ? 
@@ -272,7 +279,17 @@ Soil quality certificate for backfill.
 </section>
 <section class="md:pt-16">
 <div class="animate border-l-[3px] border-primary pl-8 py-4 bg-surface-container-low/50 rounded-r-xl" style={{backgroundColor:" #67c51b"}}>
-<p class="text-on-surface font-headline font-bold text-lg mb-3" style={{color:"#ffffff" , textAlign:"left"}}>Executive Summary</p>
+<p class="text-on-surface font-headline font-bold text-lg mb-3" style={{color:"#ffffff" , textAlign:"left"}}>{lan === 'greek' ? 
+  "Σύνοψη Διοίκησης"
+: lan === 'french' ? 
+  "Résumé Exécutif"
+: lan === 'russian' ? 
+  "Исполнительное резюме"
+: lan === 'english' ? 
+  "Executive Summary"
+: lan === 'hebrew' ? 
+  "תקציר מנהלים"
+: "Executive Summary"}</p>
    
   {lan === 'greek' ? 
 <p class="text-on-surface-variant text-base leading-relaxed" style={{color:"#ffffff" , textAlign:"left"}}>

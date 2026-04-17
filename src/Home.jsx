@@ -79,12 +79,12 @@ function Home(props) {
                   </div>
 
               <sec className="ld_2bottom">
-                <p>{lan === 'greek' ? "Στόχος μας να δημιουργήσουμε νέες, σύγχρονες γειτονιές, προσφέροντας νέα πνοή στις πόλεις και προάγοντας   έναν τρόπο ζωής υψηλής   ποιότητας και υγιεινής διαβίωσης.“"
+                <p>“{lan === 'greek' ? "Στόχος μας να δημιουργήσουμε νέες, σύγχρονες γειτονιές, προσφέροντας νέα πνοή στις πόλεις και προάγοντας   έναν τρόπο ζωής υψηλής   ποιότητας και υγιεινής διαβίωσης"
 : lan === 'french' ? "Créer de nouveaux quartiers modernes, insuffler une nouvelle vie aux villes et promouvoir un mode de vie de haute qualité et sain"
 : lan === 'russian' ? "Создавать новые современные районы, вдохновляя города новой жизнью и продвигая качественный и здоровый образ жизни"
 : lan === 'english' ? "We create new, modern neighborhoods, bringing fresh life to cities and promoting a high-quality, healthy way of living"
 : lan === 'hebrew' ? "אנו יוצרים שכונות חדשות ומודרניות, מעניקים חיים חדשים לערים ומקדמים אורח חיים איכותי ובריא"
-: "home"} .</p>
+: "home"}.”</p>
               </sec>
               </sec>
             </div> </div>
@@ -497,7 +497,7 @@ function Home(props) {
 </section> 
 <section class="p-8 md:p-20 bg-surface tessec" style={{backgroundColor:"white"}}>
 <div class="mb-20">
-<span class="font-['Manrope'] text-tertiary font-bold tracking-[0.3em] text-xs" style={{color:"#74CA2D"}}>
+<span class="font-['Manrope'] text-tertiary font-bold tracking-[0.3em] text-xs" style={{color:"#74CA2D",fontSize:"1.2rem"}}>
     {lan === 'greek' ? 
   "Πώς επιτυγχάνεται η μείωση της ενεργειακής κατανάλωσης"
 : lan === 'french' ? 
@@ -750,7 +750,7 @@ function Home(props) {
     <section  className=" blur-bg w-full min-h-[600px] flex items-center py-6 px-8 lg:px-24">
         <div class="responsive-section relative z-10 w-full flex flex-col lg:flex-row items-center justify-between gap-12">
             
-            <div class="lg:w-[60%]">
+            <div class="lg:w-[140%]">
                         <h1 class="text-2xl lg:text-2xl font-extrabold mb-6 leading-tight" style={{color:"white",fontWeight:"600" ,textAlign:"left"}}>
           {lan === 'greek' ? 
   "Πώς να επιτευχθεί η μείωση της ενεργειακής κατανάλωσης"
@@ -884,8 +884,8 @@ function Home(props) {
 
 <div className="animate"> 
            <div class="flex-1">
-<img class=" shadow-2xl object-cover h-[400px] w-full" alt="Solar panels showcasing how to acheive green enegry"
-  loading="lazy" src={solar} style={{width:"140%",boxShadow:"0 9px 14px rgba(0,0,0,0.2), 0 8px 20px rgba(0,0,0,0.7)"}}/>
+<img class=" shadow-2xl object-cover w-full" alt="Solar panels showcasing how to acheive green enegry"
+  loading="lazy" src={solar} style={{width:"100%",boxShadow:"0 9px 14px rgba(0,0,0,0.2), 0 8px 20px rgba(0,0,0,0.7)",marginTop:"40%"}}/>
 </div> </div>
 
         </div>

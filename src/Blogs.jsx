@@ -37,8 +37,11 @@ function Blogs(props) {
               <ScrollToTop />
 <main class="w-full min-h-screen pb-24 nrk" style={{backgroundColor:"#fffffffa"}}>
 <section class="w-full bg-surface-container-low py-12 px-6 mb-12">
+  
 <div class="max-w-[1440px] mx-auto">
-<p class="text-[0.6875rem] font-bold uppercase tracking-[0.2em] text-primary mb-4 rotate-90 gr3"  style={{color:"black"}}>artwork</p>
+ <div class="mb-2" style={{textAlign:"left"}}>
+<span class="bg-primary text-on-primary px-3 py-1 font-label text-[10px] font-bold tracking-[0.2em] uppercase" style={{textAlign:"left"}}>PROJECTS</span>
+</div>
 <h1 class="text-[1.6rem] leading-none font-bold tracking-tighter text-on-background max-w-4xl uo"  style={{color:"#74CA2D" ,textAlign:"left"}}>OUR PERSPECTIVES  <br />  <b style={{color:"black"}}> ON MODERN ARCHITECTURE. </b> </h1>
 </div>
 </section>
@@ -48,7 +51,7 @@ function Blogs(props) {
     <div className="animate">
 <article class="green-border bg-surface-container-lowest p-6 flex flex-col gap-6 " style={{backgroundColor:"white", border:"2px solid #74CA2D",textAlign:"left",boxShadow:"0 33px 54px rgba(0,0,0,0.25),  20px 16px 28px rgba(0,0,0,0.2)"}}>
 <header>
-<h2 class="  font-extrabold tracking-tight text-on-surface uppercase mec">{
+<h2 class="  font-extrabold tracking-tight text-on-surface   mec">{
   lan === 'greek'
     ? "Απονομή Α επαίνου στη συμμετοχή του διαγωνισμού ανέγερση μνημείου αιχμάλωτων πολέμου στο Δήμο Λευκωσίας στη Λήδρα Πάλας"
     : lan === 'french'
@@ -74,7 +77,7 @@ function Blogs(props) {
 <div className="animate">
 <article class="green-border bg-surface-container-lowest p-6 flex flex-col gap-6"  style={{backgroundColor:"white", border:"2px solid #74CA2D",textAlign:"left",boxShadow:"0 33px 54px rgba(0,0,0,0.25),  20px 16px 28px rgba(0,0,0,0.2)"}} >
 <header>
-<h2 class="  font-extrabold tracking-tight text-on-surface uppercase mec">{
+<h2 class="  font-extrabold tracking-tight text-on-surface   mec">{
   lan === 'greek'
     ? "Διαμόρφωση και σχεδιασμός των κήπων στα υπό υλοποίηση κατασκευαστικά έργα"
     : lan === 'french'
