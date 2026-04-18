@@ -233,17 +233,17 @@ function App() {
     <a href="#" onClick={()=>{setlan('hebrew'),menutoogle}} style={{color:"#515151"}}>hebrew</a>
   </div></button>
               
-                <button className="nav-right"><i class="fab fa-facebook"></i></button>
-                <button className="nav-right"><i class="fab fa-tiktok"></i></button>
-                <button className="nav-right"><i class="fab fa-instagram"></i></button>
-                <button className="nav-right"><i class="fab fa-linkedin"></i></button>
+              <a href="https://www.facebook.com/profile.php?id=61580999376973"> <button className="nav-right"><i class="fab fa-facebook"></i></button></a> 
+               <a href="https://www.tiktok.com/@greenliving3?_r=1&_t=ZS-95dqidJxydj">  <button className="nav-right"><i class="fab fa-tiktok"></i></button></a> 
+               <a href="https://www.instagram.com/greenliving.development/">  <button className="nav-right"><i class="fab fa-instagram"></i></button></a> 
+               <a href="https://www.facebook.com/profile.php?id=61580999376973">  <button className="nav-right"><i class="fab fa-linkedin"></i></button></a> 
                 
                </section>
                
             </nav>
             <nav className="sidemenu" id='sidemenu'>
               <div className="sidetop">
-                <section onClick={showpsidemenu}><img src={logo2} alt=""  style={{width:"100px",marginLeft:"-25px"}}/></section>
+                <section onClick={showpsidemenu}><img src={logo1} alt=""  style={{width:"100px",marginLeft:"15px"}}/></section>
             <section>
             <select
   name="language"
@@ -486,10 +486,12 @@ function App() {
     : "GREEN LIVING"
 }</span>
 <div class="flex items-center gap-6">
-<button className="nav-right" style={{fontSize:"1.5rem", color:"white"}}><i class="fab fa-facebook"></i></button>
-                <button className="nav-right" style={{fontSize:"1.5rem", color:"white"}} ><i class="fab fa-tiktok"></i></button>
-                <button className="nav-right" style={{fontSize:"1.5rem", color:"white"}}><i class="fab fa-instagram"></i></button>
-                <button className="nav-right" style={{fontSize:"1.5rem", color:"white"}}><i class="fab fa-linkedin"></i></button>
+
+
+      <a href="https://www.facebook.com/profile.php?id=61580999376973">       <button className="nav-right" style={{fontSize:"1.5rem", color:"white"}}><i class="fab fa-facebook"></i></button></a> 
+                <a href="https://www.tiktok.com/@greenliving3?_r=1&_t=ZS-95dqidJxydj">        <button className="nav-right" style={{fontSize:"1.5rem", color:"white"}} ><i class="fab fa-tiktok"></i></button></a> 
+                <a href="https://www.instagram.com/greenliving.development/">        <button className="nav-right" style={{fontSize:"1.5rem", color:"white"}}><i class="fab fa-instagram"></i></button></a> 
+                 <a href="https://www.facebook.com/profile.php?id=61580999376973">       <button className="nav-right" style={{fontSize:"1.5rem", color:"white"}}><i class="fab fa-linkedin"></i></button></a> 
                 
 </div>
 </div>
@@ -537,6 +539,7 @@ function App() {
 </div>
 <div class="h-24 px-12 flex items-center border-t border-[#414753]/15 bg-surface-container-low" style={{backgroundColor:"#74CA2D"}}>
 <nav class="flex items-center gap-1">
+  <Link to="/projects">
 <a class="text-[white] font-semibold hover:text-[#ffb695] transition-colors duration-300" href="#">{
   lan === 'greek'
     ? "Έργα"
@@ -549,7 +552,8 @@ function App() {
     : lan === 'english'
     ? "Projects"
     : "Projects"
-}</a>
+}</a></Link>
+  <Link to="/aboutus">
 <a class="text-[white]/70 hover:text-[#ffb695] transition-colors duration-300" href="#">{
   lan === 'greek'
     ? "Σχετικά με εμάς"
@@ -562,7 +566,9 @@ function App() {
     : lan === 'english'
     ? "About us"
     : "About us"
-}</a>
+}</a></Link>
+
+  <Link to="/certification">
 <a class="text-[white]/70 hover:text-[#ffb695] transition-colors duration-300" href="#">{
   lan === 'greek'
     ? "Όροι & Πολιτική"
@@ -575,7 +581,9 @@ function App() {
     : lan === 'english'
     ? "Terms & Policy"
     : "Terms & Policy"
-}</a>
+}</a></Link>
+
+  <Link to="/contactus">
 <a class="text-[white]/70 hover:text-[#ffb695] transition-colors duration-300" href="#">{
   lan === 'greek'
     ? "Επικοινωνία"
@@ -588,7 +596,7 @@ function App() {
     : lan === 'english'
     ? "Contact"
     : "Contact"
-}</a>
+}</a></Link>
 </nav>
 </div>
 </div>

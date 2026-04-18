@@ -19,7 +19,7 @@ import apart12 from "./assets/image of a modern apartment balcony 12.jpg"
 import apart13 from "./assets/apartment 13.jpg"
 import apart14 from "./assets/POLYKATOIKIA PHOTOS.jpg"
 import apart15 from "./assets/apartment 15.jpg"
-import apart16 from "./assets/househpl4.jfif"
+import apart16 from "./assets/househpl4.jpg"
 import house1 from "./assets/house with stone exterior 1.jpg"
 import house2 from "./assets/house with stone exterior 2.jpg"
 import house3 from "./assets/house with stone exterior 3.jpg"
@@ -201,146 +201,146 @@ onClick={()=>{
 <div class="tyu">
 
 
-<div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-[auto]  max-w-[450px]   object-cover 0 group-hover:opacity-100 transition-opacity duration-500"alt={`Image of a modern green eco-friendly ${project}`}
+<div class="animate aspect-square bg-on-surface relative group overflow-hidden  ttr">
+<img class="w-[auto]  water   object-cover 0 group-hover:opacity-100 transition-opacity duration-500"alt={`Image of a modern green eco-friendly ${project}`}
   loading="lazy" src={project === 'apartment' ? apart1 : project === 'construction' ? construction1 : house1}  />
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
 
-<div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-[auto]  max-w-[450px]  object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
+<div class="animate aspect-square bg-on-surface relative group overflow-hidden  ttr">
+<img class="w-[auto]  water  object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
   loading="lazy"  src={project === 'apartment' ? apart2 : project === 'construction' ? construction7 : house2}  />
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
 
-<div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-[auto]  max-w-[450px]   object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
+<div class="animate aspect-square bg-on-surface relative group overflow-hidden  ttr">
+<img class="w-[auto]  water   object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
   loading="lazy"  src={project === 'apartment' ? apart3 : project === 'construction' ? construction2 : house12}  />
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
-<div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-[auto]  max-w-[450px]  object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
+<div class="animate aspect-square bg-on-surface relative group overflow-hidden  ttr">
+<img class="w-[auto]  water  object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
   loading="lazy"  src={project === 'apartment' ? apart10 : project === 'construction' ? construction4 : house7}   />
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
-<div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-[auto]  max-w-[450px]  object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
+<div class="animate aspect-square bg-on-surface relative group overflow-hidden  ttr">
+<img class="w-[auto]  water  object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
   loading="lazy"  src={project === 'apartment' ? apart5 : project === 'construction' ? construction5 : house5}  />
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
-<div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-[auto]  max-w-[450px]   object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
+<div class="animate aspect-square bg-on-surface relative group overflow-hidden  ttr">
+<img class="w-[auto]  water   object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
   loading="lazy"  src={project === 'apartment' ? apart6 : project === 'construction' ? construction3 : house6}  />
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
-<div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-[auto]  max-w-[450px]  object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
+<div class="animate aspect-square bg-on-surface relative group overflow-hidden  ttr">
+<img class="w-[auto]  water  object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
   loading="lazy"  src={project === 'apartment' ? apart7 : project === 'construction' ? construction12 : house3}  />
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
-<div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-[auto]  max-w-[450px]   object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
+<div class="animate aspect-square bg-on-surface relative group overflow-hidden  ttr">
+<img class="w-[auto]  water   object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
   loading="lazy"  src={project === 'apartment' ? apart8 : project === 'construction' ? construction8 : house8} />
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
-<div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-[auto]  max-w-[450px]   object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
+<div class="animate aspect-square bg-on-surface relative group overflow-hidden  ttr">
+<img class="w-[auto]  water   object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
   loading="lazy"  src={project === 'apartment' ? apart9 : project === 'construction' ? construction9 : house9}  />
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
-<div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-[auto]  max-w-[450px]  object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
+<div class="animate aspect-square bg-on-surface relative group overflow-hidden  ttr">
+<img class="w-[auto]  water  object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
   loading="lazy"  src={project === 'apartment' ? apart4 : project === 'construction' ? construction10 : house10}  />
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
-<div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-[auto]  max-w-[450px]   object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
+<div class="animate aspect-square bg-on-surface relative group overflow-hidden  ttr">
+<img class="w-[auto]  water   object-cover 0 group-hover:opacity-100 transition-opacity duration-500" alt={`Image of a modern green eco-friendly ${project}`}
   loading="lazy"  src={project === 'apartment' ? apart11 : project === 'construction' ? construction6 : house11}  />
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
-<div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-[auto]  max-w-[450px]   object-cover 0 group-hover:opacity-100 transition-opacity duration-500" dalt={`Image of a modern green eco-friendly ${project}`}
+<div class="animate aspect-square bg-on-surface relative group overflow-hidden  ttr">
+<img class="w-[auto]  water   object-cover 0 group-hover:opacity-100 transition-opacity duration-500" dalt={`Image of a modern green eco-friendly ${project}`}
   loading="lazy"  src={project === 'apartment' ? apart13 : project === 'construction' ? construction15 : ""}  />
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
-<div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-[auto]  max-w-[450px]   object-cover 0 group-hover:opacity-100 transition-opacity duration-500" dalt={`Image of a modern green eco-friendly ${project}`}
+<div class="animate aspect-square bg-on-surface relative group overflow-hidden  ttr">
+<img class="w-[auto]  water   object-cover 0 group-hover:opacity-100 transition-opacity duration-500" dalt={`Image of a modern green eco-friendly ${project}`}
   loading="lazy"  src={project === 'apartment' ? apart12 : project === 'construction' ? construction13 : ""}  />
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
-<div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-[auto]  max-w-[450px]   object-cover 0 group-hover:opacity-100 transition-opacity duration-500" dalt={`Image of a modern green eco-friendly ${project}`}
+<div class="animate aspect-square bg-on-surface relative group overflow-hidden  ttr">
+<img class="w-[auto]  water   object-cover 0 group-hover:opacity-100 transition-opacity duration-500" dalt={`Image of a modern green eco-friendly ${project}`}
   loading="lazy"  src={project === 'apartment' ? apart14 : project === 'construction' ? construction14 : ""}  />
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
-</div><div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-[auto]  max-w-[450px]   object-cover 0 group-hover:opacity-100 transition-opacity duration-500" dalt={`Image of a modern green eco-friendly ${project}`}
+</div><div class="animate aspect-square bg-on-surface relative group overflow-hidden  ttr">
+<img class="w-[auto]  water   object-cover 0 group-hover:opacity-100 transition-opacity duration-500" dalt={`Image of a modern green eco-friendly ${project}`}
   loading="lazy"  src={project === 'apartment' ? apart15 : project === 'construction' ? construction17 : ""}  />
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
-</div><div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-[auto]  max-w-[450px]   object-cover 0 group-hover:opacity-100 transition-opacity duration-500" dalt={`Image of a modern green eco-friendly ${project}`}
+</div><div class="animate aspect-square bg-on-surface relative group overflow-hidden  ttr">
+<img class="w-[auto]  water   object-cover 0 group-hover:opacity-100 transition-opacity duration-500" dalt={`Image of a modern green eco-friendly ${project}`}
   loading="lazy"  src={project === 'apartment' ? apart16 : project === 'construction' ? construction18 : ""}  />
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
-</div><div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-[auto]  max-w-[450px]   object-cover 0 group-hover:opacity-100 transition-opacity duration-500" dalt={`Image of a modern green eco-friendly ${project}`}
+</div><div class="animate aspect-square bg-on-surface relative group overflow-hidden  ttr">
+<img class="w-[auto]  water   object-cover 0 group-hover:opacity-100 transition-opacity duration-500" dalt={`Image of a modern green eco-friendly ${project}`}
   loading="lazy"  src={project === 'apartment' ?  "" : project === 'construction' ? construction20 : ""}  />
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
-</div><div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-[auto]  max-w-[450px]  object-cover 0 group-hover:opacity-100 transition-opacity duration-500" dalt={`Image of a modern green eco-friendly ${project}`}
+</div><div class="animate aspect-square bg-on-surface relative group overflow-hidden  ttr">
+<img class="w-[auto]  water  object-cover 0 group-hover:opacity-100 transition-opacity duration-500" dalt={`Image of a modern green eco-friendly ${project}`}
   loading="lazy"  src={project === 'apartment' ? " " : project === 'construction' ? construction21 : ""}  />
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
-<div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-[auto]  max-w-[450px]  object-cover 0 group-hover:opacity-100 transition-opacity duration-500" dalt={`Image of a modern green eco-friendly ${project}`}
+<div class="animate aspect-square bg-on-surface relative group overflow-hidden  ttr">
+<img class="w-[auto]  water  object-cover 0 group-hover:opacity-100 transition-opacity duration-500" dalt={`Image of a modern green eco-friendly ${project}`}
   loading="lazy"  src={project === 'apartment' ?  "" : project === 'construction' ? construction16 : ""}  />
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
-<div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-[auto]  max-w-[450px]  object-cover 0 group-hover:opacity-100 transition-opacity duration-500" dalt={`Image of a modern green eco-friendly ${project}`}
+<div class="animate aspect-square bg-on-surface relative group overflow-hidden  ttr">
+<img class="w-[auto]  water  object-cover 0 group-hover:opacity-100 transition-opacity duration-500" dalt={`Image of a modern green eco-friendly ${project}`}
   loading="lazy"  src={project === 'apartment' ?  "" : project === 'construction' ? construction19 : ""}  />
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 
 </div>
 </div>
-<div class="animate aspect-square bg-on-surface relative group overflow-hidden">
-<img class="w-[auto]  max-w-[450px] object-cover 0 group-hover:opacity-100 transition-opacity duration-500" dalt={`Image of a modern green eco-friendly ${project}`}
+<div class="animate aspect-square bg-on-surface relative group overflow-hidden  ttr">
+<img class="w-[auto]  water object-cover 0 group-hover:opacity-100 transition-opacity duration-500" dalt={`Image of a modern green eco-friendly ${project}`}
   loading="lazy"  src={project === 'apartment' ?  "" : project === 'construction' ? construction11 : ""}  />
 <div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
 <div class="absolute bottom-4 left-4"> 

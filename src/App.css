@@ -170,6 +170,9 @@ code {
 .ete{
   width: 40%;
 }
+.water{
+  max-width: 450px;
+}
 .gr{
   position: absolute;
   z-index: +50;
@@ -188,6 +191,9 @@ code {
     .mec{
       font-size: 1rem;
       line-height: 1.3rem;
+    }
+    .ttr{
+      background-color: black;
     }
 .gr3{
   margin-left:-20%;
@@ -1106,6 +1112,7 @@ font-family: 'Oswald', sans-serif;
 
 .wt{
   height: auto;
+  margin-top: -130px;
 
 }
 .no2{
@@ -1142,7 +1149,9 @@ font-family: 'Oswald', sans-serif;
 .main{
   
     border-bottom: 3px solid rgba(255, 255, 255, 0.662);
-    background: rgb(255 255 255 / 62%);
+    background: rgba(255, 255, 255, 0.763);
+    
+  -webkit-backdrop-filter: blur(14px); 
   position: fixed;
   z-index: +70;
   height: 70px;
@@ -1152,6 +1161,8 @@ font-family: 'Oswald', sans-serif;
 }
 .center img{
   width: 120px;
+  display: none;
+  border: 0px solid rgba(255, 255, 255, 0);
   margin-right: 60%;
   margin-left: 0%;
 }
@@ -1174,6 +1185,10 @@ font-family: 'Oswald', sans-serif;
   width: 300px;
   height: 100px;
   margin-right: 5px;
+}
+.water{
+  max-width: 270px;
+  height: auto;
 }
 .over h2{
   font-size: 0.8rem;
@@ -1402,6 +1417,7 @@ font-family: 'Oswald', sans-serif;
   justify-content: center;
   align-items: center;
   gap: 80px;
+  padding: 2%;
   background-color: rgb(255, 255, 255);
 }
 .ro{
@@ -1483,7 +1499,7 @@ font-family: 'Oswald', sans-serif;
         
 .mk9{
   height: 5700px;
-  margin-top: 0px;
+  margin-top: -55px;
 }
 
         .bbb{
@@ -1518,8 +1534,14 @@ font-family: 'Oswald', sans-serif;
   list-style: none;
 }
 .ham{
-  margin-top: -10px;
+  padding-top: 5px;
   display: unset;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  text-align: right;
+  font-weight: 900;
+  font-size: 1.5rem;
 
 }
 .gall{
@@ -1527,6 +1549,11 @@ font-family: 'Oswald', sans-serif;
  margin-right: 0;
 }
 .tessec{
+  margin-top: 22px;
+          height: 1500px;
+}
+
+.tessec1{
   margin-top: 22px;
           height: 1900px;
 }
@@ -1610,7 +1637,7 @@ font-family: 'Oswald', sans-serif;
 }
 .contactmain{
   height: 2200px;
-  margin-top: -40px;
+  margin-top: -140px;
   padding-top: 40px;
 }
 .bnm{

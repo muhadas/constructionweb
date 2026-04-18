@@ -42,7 +42,7 @@ function Blogs(props) {
  <div class="mb-2" style={{textAlign:"left"}}>
 <span class="bg-primary text-on-primary px-3 py-1 font-label text-[10px] font-bold tracking-[0.2em] uppercase" style={{textAlign:"left"}}>PROJECTS</span>
 </div>
-<h1 class="text-[1.6rem] leading-none font-bold tracking-tighter text-on-background max-w-4xl uo"  style={{color:"#74CA2D" ,textAlign:"left"}}>OUR PERSPECTIVES  <br />  <b style={{color:"black"}}> ON MODERN ARCHITECTURE. </b> </h1>
+<h1 class="text-[1.6rem] leading-none font-bold tracking-tighter text-on-background max-w-4xl uo"  style={{color:"#74CA2D" ,textAlign:"left",marginTop:"15px"}}>OUR PERSPECTIVES  <br />  <b style={{color:"black"}}> ON MODERN ARCHITECTURE. </b> </h1>
 </div>
 </section>
 <div class="w-full px-6">
@@ -53,7 +53,7 @@ function Blogs(props) {
 <header>
 <h2 class="  font-extrabold tracking-tight text-on-surface   mec">{
   lan === 'greek'
-    ? "Απονομή Α επαίνου στη συμμετοχή του διαγωνισμού ανέγερση μνημείου αιχμάλωτων πολέμου στο Δήμο Λευκωσίας στη Λήδρα Πάλας"
+    ? "Απονομή A’ επαίνου στη συμμετοχή του διαγωνισμού ανέγερση μνημείου αιχμάλωτων πολέμου στο Δήμο Λευκωσίας στη Λήδρα Πάλας"
     : lan === 'french'
     ? "Distinction du 1er prix pour la participation au concours de construction du monument des prisonniers de guerre à la municipalité de Nicosie à Ledra Palace"
     : lan === 'russian'
@@ -67,10 +67,10 @@ function Blogs(props) {
 </h2>
 </header>
 <div class="w-[98%] mx-auto">
-<img alt="Architectural structure" class="w-full aspect-[16/9] object-cover filter   hover:grayscale-0 transition-all duration-500" data-alt="Monolithic concrete skyscraper reflecting bright sunlight against a clear blue sky, sharp angles and architectural precision." src={bl1}/>
+<img alt="Architectural structure" class="w-full  object-cover filter   hover:grayscale-0 transition-all duration-500" data-alt="Monolithic concrete skyscraper reflecting bright sunlight against a clear blue sky, sharp angles and architectural precision." src={bl1}/>
 </div>
-<div class="w-[98%] mx-auto">
-<img alt="Architectural structure" class="w-full aspect-[16/9] object-cover filter   hover:grayscale-0 transition-all duration-500" data-alt="Monolithic concrete skyscraper reflecting bright sunlight against a clear blue sky, sharp angles and architectural precision." src={bl2}/>
+<div class="w-[98%] mx-auto" style={{height:"auto"}}>
+<img alt="Architectural structure" class="w-full  object-cover filter   hover:grayscale-0 transition-all duration-500" data-alt="Monolithic concrete skyscraper reflecting bright sunlight against a clear blue sky, sharp angles and architectural precision." src={bl2}/>
 </div>
 </article>
 </div>
@@ -92,7 +92,7 @@ function Blogs(props) {
 }</h2>
 </header>
 <div class="w-[98%] mx-auto">
-<img alt="Green Enviroment structure" class="w-full aspect-[16/9] object-cover filter   hover:grayscale-0 transition-all duration-500" data-alt="Macro photography of a modern computer processor with intricate circuitry glowing in deep neon blues and silvers." src={bl3}/>
+<img alt="Green Enviroment structure" class="w-full  object-cover filter   hover:grayscale-0 transition-all duration-500" data-alt="Macro photography of a modern computer processor with intricate circuitry glowing in deep neon blues and silvers." src={bl3}/>
 </div>
 <div class="flex flex-row gap-6 mt-2">
  

@@ -162,7 +162,7 @@ function Home(props) {
           
           </div>
 
-<section class=" relative min-h-screen flex items-center justify-center overflow-hidden pt-40 tessec ">
+<section class=" relative min-h-screen flex items-center justify-center overflow-hidden pt-40 tessec1 ">
 <div class="absolute inset-0 z-0">
 <img alt="Modern construction site" class="w-full h-full object-cover" data-alt="Wide angle shot of a massive modern construction site at twilight with heavy machinery and steel frameworks under dramatic cool blue lighting"  src={ft}/>
 <div class="absolute inset-0 bg-gradient-to-r from-surface via-surface/80 to-surface/40" style={{backgroundColor:"#000000b3"}}></div>
@@ -324,7 +324,7 @@ function Home(props) {
 <h3 class="text-xl font-bold text-white mb-3"  style={{color:"#74CA2D"}}>******</h3>
 <p class="text-on-surface-variant text-sm leading-relaxed">
     {lan === 'greek' ? 
-  "επιλέγουμε θέσεις σε άμεση γειτνίαση με δημόσιους χώρους πρασίνου, ενισχύοντας την ποιότητα ζωής των κατοίκων και την περιβαλλοντική αξία του τόπου."
+  "Eπιλέγουμε θέσεις σε άμεση γειτνίαση με δημόσιους χώρους πρασίνου, ενισχύοντας την ποιότητα ζωής των κατοίκων και την περιβαλλοντική αξία του τόπου."
 : lan === 'french' ? 
   "Nous choisissons des emplacements à proximité immédiate d’espaces verts publics, améliorant ainsi la qualité de vie des habitants et la valeur environnementale du site."
 : lan === 'russian' ? 
@@ -367,7 +367,7 @@ function Home(props) {
 </div>
 
              {lan === 'greek' ? 
-  <p class="animate max-w-[90%] text-on-surface-variant leading-relaxed text-lg font-body" style={{textAlign:"justify"}}>
+  <p class="animate max-w-[100%] text-on-surface-variant leading-relaxed text-lg font-body" style={{textAlign:"justify"}}>
     Η ηλιακή ακτινοβολία απορροφάται από τις οροφές, τις εξωτερικές επιφάνειες των κτιρίων, την άσφαλτο και λοιπά δομικά υλικά, οδηγώντας σε σημαντική αύξηση της θερμοκρασίας αυτών των επιφανειών σε αστικό περιβάλλον. Η θερμοκρασία των επιφανειών δύναται να υπερβαίνει την αντίστοιχη του περιβάλλοντος αέρα κατά 30-40°C.
     <br /><br />
     Η αύξηση αυτή επιδρά άμεσα στη θερμοκρασία του ατμοσφαιρικού αέρα στις αστικές περιοχές, συμβάλλοντας στη διαμόρφωση του φαινομένου της αστικής θερμικής νησίδας. Το φαινόμενο μπορεί να προκαλέσει άνοδο της θερμοκρασίας στο σύνολο μιας πόλης κατά 1-5°C σε σύγκριση με τις γειτονικές ημιαστικές ή αγροτικές περιοχές.
@@ -753,7 +753,7 @@ function Home(props) {
             <div class="lg:w-[140%]">
                         <h1 class="text-2xl lg:text-2xl font-extrabold mb-6 leading-tight" style={{color:"white",fontWeight:"600" ,textAlign:"left"}}>
           {lan === 'greek' ? 
-  "Πώς να επιτευχθεί η μείωση της ενεργειακής κατανάλωσης"
+  "Πώς επιτυγχάνεται η μείωση της ενεργειακής κατανάλωσης"
 : lan === 'french' ? 
   "Comment réduire la consommation d’énergie"
 : lan === 'russian' ? 

@@ -114,7 +114,7 @@ function About(props) {
   "איננו מתייחסים לדיור כיחידה מבודדת. להפך, אנו שואפים לתכנן סביבות מגורים משולבות."
 : "home"}
   </h2>
-<p class="font-body text-on-surface-variant mb-10 leading-relaxed max-w-xl" style={{textAlign:"left",fontSize:"1.3rem"}}>
+<p class="font-body text-on-surface-variant mb-10 leading-relaxed max-w-xl" style={{textAlign:"left",fontSize:"1.2rem"}}>
          
         {lan === 'greek' ? 
   "Στόχος μας είναι η δημιουργία χώρων που:"
@@ -316,7 +316,7 @@ function About(props) {
   </h2>
 
   
-<p class="font-body text-on-surface-variant mb-10 leading-relaxed max-w-xl" style={{color:"black",textAlign:"left"}}>
+<p class="font-body text-on-surface-variant mb-10 leading-relaxed max-w-xl" style={{textAlign:"left",fontSize:"1.2rem"}}>
 {lan === 'greek' ? 
   "Επιδιώκουμε:"
 : lan === 'french' ? 
