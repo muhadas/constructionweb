@@ -172,7 +172,7 @@ onChange={(e)=>{
                 <button className="nav-right" style={{fontSize:"2rem", marginBottom:"10%",color:"white"}}><i class="fa-solid fa-location-dot"></i></button>
 <div>
 <h3 class="text-2xl font-bold mb-2">ADDRESS</h3>
-<p class="text-on-surface-variant uppercase tracking-wider text-sm" style={{fontSize:"1rem"}}> 251 Avenue Makariou, Lakatamia<br/>2311 Nicosia, Cyprus </p>
+<p class="text-on-surface-variant uppercase tracking-wider text-sm" style={{fontSize:"1rem"}}> 251 Makariou Avenue, Lakatamia<br/>2311 Nicosia, Cyprus </p>
 </div>
 </div>
 <div class="bg-surface-container p-12 flex flex-col " style={{boxShadow: "0 33px 54px rgba(0,0,0,0.25),  20px 16px 28px rgba(0,0,0,0.2)" }} >

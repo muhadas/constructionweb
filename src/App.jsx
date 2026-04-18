@@ -531,7 +531,7 @@ function App() {
     : "Address"
 }</p>
 <p class="text-on-surface leading-relaxed"  style={{color:"white"}}>
-                            251 Avenue Makariou, Lakatamia, <br/>
+                            251  Makariou Avenue , Lakatamia, <br/>
                          2311 Nicosia, Cyprus 
                             </p>
 </div>
