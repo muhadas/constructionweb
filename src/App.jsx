@@ -243,7 +243,7 @@ function App() {
             </nav>
             <nav className="sidemenu" id='sidemenu'>
               <div className="sidetop">
-                <section onClick={showpsidemenu}><img src={logo1} alt=""  style={{width:"80px",marginLeft:"15px",marginTop:"15px"}}/></section>
+                <section onClick={showpsidemenu}><img src={logo1} alt=""  style={{width:"50px",marginLeft:"15px",marginTop:"15px"}}/></section>
             <section>
             <select
   name="language"
