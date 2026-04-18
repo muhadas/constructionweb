@@ -243,7 +243,7 @@ function App() {
             </nav>
             <nav className="sidemenu" id='sidemenu'>
               <div className="sidetop">
-                <section onClick={showpsidemenu}><img src={logo1} alt=""  style={{width:"50px",marginLeft:"15px",marginTop:"15px"}}/></section>
+                <section onClick={showpsidemenu}><img src={logo1} alt=""  style={{width:"40px",marginLeft:"15px",marginTop:"15px"}}/></section>
             <section>
             <select
   name="language"
@@ -532,7 +532,7 @@ function App() {
 }</p>
 <p class="text-on-surface leading-relaxed"  style={{color:"white"}}>
                             251 Avenue Makariou, Lakatamia, <br/>
-                           Nicosia, Cyprus 
+                         2311 Nicosia, Cyprus 
                             </p>
 </div>
 </div>
