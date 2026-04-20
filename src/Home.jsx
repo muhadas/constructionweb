@@ -30,6 +30,7 @@ function Home(props) {
         <>
 
          <Helmet>
+          <meta name="google-site-verification" content="tksVfYDf1wcY2xG-e_-g-t9lJbAVyK7ffWIa6Kcq1NY" />
         <title>Construction Company in Cyprus</title>
         <meta name="description" content="The few construction company in cyprus which provide development by sustaining green enviroment. Our company speciallizes is green living life styles of our development structures. we use best materials, provide greenland in property, energy efficient designs. We build best energy efficient construction projects, Including construction of  apartments." />
      <link rel="canonical" href="https://yourwebsite.com/" />
