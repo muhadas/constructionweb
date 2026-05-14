@@ -80,9 +80,8 @@ function App() {
   const[email,setEmail]=useState()
   const[message,setMessage]=useState("not provided")
   const[phone,setPhone]=useState("not provided")
-  var serviceID = "service_rrbee09"
+  var serviceID = "service_drm8air"
   var templateID = "template_5jjim5n"
-  
   var userID = "dr8L5wxcbaDVb8vhG"
  const handlesubmit= (e) =>{
   e.preventDefault()
@@ -656,7 +655,7 @@ function App() {
     ? "© 2026 GREEN LIVING. ALL RIGHTS RESERVED."
     : "© 2026 GREEN LIVING. ALL RIGHTS RESERVED."
 }
-                    </p>
+                <br /> Designed & developed by <a href="https://wa.me/+923478845378" style={{color:"green","fontWeight":"900"}}>DREAMTECH</a>     </p>
 </div>
 </div>
 </div>
